@@ -58,7 +58,7 @@ function App() {
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                   <li className="nav-item active">
                     <Link to={"App"} className="nav-link menu-mrg a-2">
-                      Homes
+                      Home
                     </Link>
                   </li>
                   <li className="nav-item">
