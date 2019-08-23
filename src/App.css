@@ -1,0 +1,490 @@
+.bac-image {
+  background-image: url("images/beauty.jpg") !important;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.863) !important;
+  height: 80px !important;
+}
+
+.h3-font {
+  text-align: center;
+  color: white;
+  margin-top: 180px;
+  font-family: ApercuProBoldimport;
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 63px;
+}
+
+.paragraph {
+  font-family: ApercuProBoldimport;
+  color: white;
+  font-size: 21.5px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 25px;
+}
+
+@font-face {
+  font-family: ApercuProBoldimport;
+  src: url("fonts/Apercu/ApercuProBold.otf");
+}
+
+.logo-apps {
+  width: 130px;
+  position: relative;
+  left: 570px;
+  margin-top: 20px;
+}
+
+.logo-apps-1 {
+  width: 165px;
+  position: relative;
+  left: 630px;
+  margin-top: 20px;
+}
+
+.logo-apps-2 {
+  width: 130px;
+  position: relative;
+  left: 600px;
+  margin-top: 20px;
+}
+
+.nav-link {
+  color: #003067 !important;
+  font-weight: bolder;
+  font-family: ApercuProBoldimport;
+  letter-spacing: 1px;
+  position: relative;
+  left: 400px;
+}
+
+.icon-set {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.logo-site {
+  width: 145px;
+  margin-top: -5.5px;
+}
+
+.menu-mrg {
+  margin-left: 25px;
+  margin-top: -15px;
+}
+
+.a-2:hover {
+  color: #1b94ed !important;
+}
+
+.numbers {
+  color: #1b94ed !important;
+  font-family: ApercuProBoldimport;
+  font-style: normal;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.clients-intro {
+  text-align: center;
+  font-weight: 400;
+  font-family: ApercuProBoldimport;
+  font-style: normal;
+  font-size: 23.5px;
+  color: #1b385e;
+  margin-top: 110px;
+  margin-bottom: 40px;
+}
+
+.clients {
+  width: 90px;
+  position: relative;
+  left: 90px;
+  margin-bottom: 95px;
+}
+
+.clients-paragh {
+  text-align: center;
+  margin-bottom: 90px;
+  font-size: 15px;
+  font-family: ApercuProBoldimport;
+  font-weight: lighter;
+}
+
+.body-1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 13.5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: -50px;
+  margin-bottom: 120px;
+  font-family: ApercuProBoldimport;
+}
+
+.cutslide {
+  background-image: url("images/cutslide.png") !important;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.white-card {
+  width: 100% !important;
+  background-color: rgba(255, 255, 255, 0.938);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  position: relative;
+  top: 130px;
+  height: 70vh;
+}
+
+.button-optimal {
+  background-color: #1b94ed;
+  height: 50px;
+  width: 170px;
+  border: transparent;
+  border-radius: 25px;
+  color: white;
+  font-weight: bolder;
+  font-family: ApercuProBoldimport;
+  position: relative;
+  left: 450px;
+  top: -20px;
+  outline: none !important;
+}
+
+.button-optimal:hover {
+  outline: none;
+  background-color: #003067;
+  border: transparent;
+}
+
+.clients-paragh-2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: ApercuProBoldimport;
+  margin-top: 160px;
+  font-weight: lighter;
+}
+
+.clients-intro-2 {
+  text-align: center;
+  font-weight: 400;
+  font-family: ApercuProBoldimport;
+  font-style: normal;
+  font-size: 23.5px;
+  color: #1b385e;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+.avatars {
+  width: 100px;
+}
+
+.testimonials {
+  font-family: ApercuProBoldimport;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 75px;
+}
+
+.user-name {
+  font-family: ApercuProBoldimport;
+  color: #003067;
+}
+
+.white-smoke {
+  background-color: whitesmoke;
+  height: 90vh;
+}
+
+.appscreen {
+  width: 250px;
+  position: relative;
+  top: 120px;
+  left: 100px;
+}
+
+.mrg-bottom {
+  margin-bottom: 140px;
+}
+
+.cueball-create {
+  font-family: ApercuProBoldimport;
+  color: #003067;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.snooker {
+  width: 105px;
+}
+
+.body-cueball {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-family: inherit !important;
+}
+
+.button-optimal-2 {
+  background-color: #1b94ed;
+  height: 50px;
+  width: 170px;
+  border: transparent;
+  border-radius: 25px;
+  color: white;
+  font-weight: bolder;
+  font-family: ApercuProBoldimport;
+  position: relative;
+  left: 190px;
+  top: 10px;
+
+  outline: none !important;
+}
+
+.button-optimal-2:hover {
+  outline: none;
+  background-color: #003067;
+  border: transparent;
+}
+
+.line {
+  border-left: transparent;
+  border-right: transparent;
+  border-top: 1px solid rgba(192, 192, 192, 0.479);
+  border-bottom: transparent;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.top-mrng {
+  margin-top: 110px;
+}
+
+.optimal-name {
+  font-weight: bolder;
+  font-family: ApercuProBoldimport;
+  color: #003067;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+li {
+  list-style-type: none !important;
+  font-size: 13px;
+  margin-top: 25px;
+  font-family: ApercuProBoldimport;
+}
+
+.terms {
+  text-align: center;
+}
+
+.link-fb {
+  color: #38559a;
+  text-decoration: none !important;
+}
+
+.link-twitter {
+  color: #59aaeb;
+  text-decoration: none !important;
+}
+
+.link-ig {
+  color: #bf297d;
+  text-decoration: none !important;
+}
+
+.footer-link {
+  color: grey;
+}
+
+.terms {
+  font-family: ApercuProBoldimport;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+
+.small {
+  width: 25px;
+  margin-right: 8px;
+}
+
+/* responsive break point for mobile devices */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .bg-light {
+    background-color: white !important;
+    height: fit-content !important;
+  }
+
+
+
+  .bac-image {
+    background-image: url("images/mobile-background.jpg") !important;
+    background-repeat: no-repeat;
+    height: 150vh;
+    background-size: cover;
+  }
+
+  .h3-font {
+    text-align: center;
+    color: white;
+    margin-top: 160px;
+    font-family: ApercuProBoldimport;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 49px;
+  }
+
+  .paragraph {
+    font-family: ApercuProBoldimport;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .nav-link {
+    color: #003067 !important;
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+    letter-spacing: 1px;
+    position: initial !important;
+  }
+
+  .menu-mrg {
+    text-align: center !important;
+    margin-top: -20px !important;
+    letter-spacing: 7px;
+  }
+
+  .icon-set {
+    display: none;
+  }
+
+  .logo-apps-1 {
+    width: 165px;
+    position: relative;
+    left: 113px;
+    margin-top: 20px;
+  }
+
+  .logo-apps {
+    width: 110px;
+    position: relative;
+    left: 80px;
+    top: 0px;
+  }
+
+  .logo-apps-2 {
+    width: 110px;
+    position: relative;
+    left: 95px;
+    top: 0px;
+  }
+
+  .clients {
+    width: 80px;
+    position: relative;
+    left: 0px;
+    margin-bottom: 90px;
+  }
+
+  .cutslide {
+    background-image: url("images/mobile-background-2.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .mobile-intro {
+    margin-top: 55px !important;
+  }
+
+  .button-optimal {
+    background-color: #1b94ed;
+    height: 50px;
+    width: 100%;
+    border: transparent;
+    border-radius: 25px;
+    color: white;
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+    outline: none !important;
+    position: initial;
+  }
+
+  .mobile-bottom {
+    margin-bottom: 22px !important;
+  }
+
+  .avatars {
+    width: 70px;
+  }
+
+  .white-smoke {
+    background-color: whitesmoke;
+    height: 165vh !important;
+  }
+
+  .button-optimal-2 {
+    background-color: #1b94ed;
+    height: 50px;
+    width: 100%;
+    border: transparent;
+    border-radius: 25px;
+    color: white;
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+    position: initial !important;
+    outline: none !important;
+  }
+
+  .appscreen {
+    width: 50%;
+    display: block !important;
+  }
+
+  .optimal-name {
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+    color: #003067;
+    font-size: 19px;
+    margin-bottom: 37px;
+    margin-top: 34px !important;
+    text-align: center;
+  }
+
+  li {
+    text-align: center !important;
+  }
+
+  .terms {
+    padding: 30px 30px 30px 30px;
+  }
+}
+
+.fixed-bottom {
+  width: 50px;
+  margin-bottom: 30px !important;
+  margin-left: 30px !important;
+}
