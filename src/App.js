@@ -57,35 +57,35 @@ function App() {
               >
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                   <li className="nav-item active">
-                    <Link to={"App"} className="nav-link menu-mrg a-2">
+                    <Link to="/" className="nav-link menu-mrg a-2">
                       Home
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link menu-mrg a-2" href="#">
+                    < Link to="" className="nav-link menu-mrg a-2">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link menu-mrg a-2" href="#">
+                    <Link to="" className="nav-link menu-mrg a-2">
                       Services
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="nav-item">
-                    <a href="" className="nav-link menu-mrg a-2">
+                    <Link to="" className="nav-link menu-mrg a-2">
                       Our team
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link menu-mrg a-2" href="#">
+                    <Link to="" className="nav-link menu-mrg a-2" >
                       Contact
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link menu-mrg a-2" href="#">
+                    <Link className="nav-link menu-mrg a-2">
                       <span>
                         {" "}
                         <img
@@ -95,7 +95,7 @@ function App() {
                         />{" "}
                       </span>
                       My account
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -386,27 +386,27 @@ function App() {
                 <h5 className="optimal-name">Company</h5>
 
                 <li>
-                  <a href="" className="footer-link">
+                  <Link to="" className="footer-link">
                     Careers
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="" className="footer-link">
+                  <Link to="" className="footer-link">
                     Contact us
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="" className="footer-link">
+                  <Link to="" className="footer-link">
                     Services
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="" className="footer-link">
+                  <Link to="" className="footer-link">
                     About us
-                  </a>
+                  </Link>
                 </li>
               </div>
               <div className="col-sm-3">
