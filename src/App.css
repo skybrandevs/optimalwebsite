@@ -256,7 +256,6 @@
   position: relative;
   left: 190px;
   top: 10px;
-
   outline: none !important;
 }
 
@@ -327,6 +326,51 @@ li {
   width: 25px;
   margin-right: 8px;
 }
+
+/* about us styles */
+
+.bac-about{
+
+  background-image: url("bac-about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:55vh !important;
+
+
+}
+
+
+.middle-text{
+  font-family: ApercuProBoldimport;
+  font-size: 13px;
+  margin-top: -20px;
+  text-align: center;
+
+
+
+}
+
+
+.smoke{
+  background-color: whitesmoke !important;
+  height:100vh;
+  padding-top: 40px;
+}
+
+
+.mission{
+
+text-align: center;
+margin-top: 250px !important;
+
+
+}
+
+
+
+
+
+/*end*/
 
 /* responsive break point for mobile devices */
 
@@ -446,6 +490,8 @@ li {
     height: 165vh !important;
   }
 
+
+
   .button-optimal-2 {
     background-color: #1b94ed;
     height: 50px;
@@ -488,3 +534,256 @@ li {
   margin-bottom: 30px !important;
   margin-left: 30px !important;
 }
+
+
+/*responsive mode for mobile devices in game mode */
+
+
+
+/*media query for game mode */
+
+@media only screen and (min-width: 568px) and (max-width: 812px) and (orientation:landscape) {
+
+
+  .hide-all{
+
+display: none;
+
+  }
+
+
+
+
+}
+
+
+
+
+
+
+/*end*/
+
+
+/*responsive mode for ipad */
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+.logo-apps-1 , .logo-apps-2 ,.logo-apps {
+
+display:none !important;
+
+}
+
+
+.clients {
+  width: 90px;
+  position: relative;
+  left: 25px;
+  margin-bottom: 95px;
+}
+
+
+.button-optimal-2 {
+  background-color: #1b94ed;
+  height: 50px;
+  width: 100%;
+  border: transparent;
+  border-radius: 25px;
+  color: white;
+  font-weight: bolder;
+  font-family: ApercuProBoldimport;
+  position: relative;
+  left: 0px;
+  top: 10px;
+  outline: none !important;
+}
+
+
+
+.nav-link {
+  color: #003067 !important;
+  font-weight: bolder;
+  font-family: ApercuProBoldimport;
+  letter-spacing: 1px;
+  position: relative;
+  left: 1px;
+}
+
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.877) !important;
+  height: fit-content !important;
+}
+
+
+.button-optimal {
+  background-color: #1b94ed;
+  height: 50px;
+  width: 170px;
+  border: transparent;
+  border-radius: 25px;
+  color: white;
+  font-weight: bolder;
+  font-family: ApercuProBoldimport;
+  position: relative;
+  left: 235px;
+  top: -20px;
+  outline: none !important;
+}
+
+
+
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+
+
+/* iPads landscape mode  (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+
+
+  .button-optimal-2 {
+    background-color: #1b94ed;
+    height: 50px;
+    width: 100%;
+    border: transparent;
+    border-radius: 25px;
+    color: white;
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    outline: none !important;
+  }
+
+
+
+  .button-optimal  {
+    background-color: #1b94ed;
+    height: 50px;
+    width: 170px;
+    border: transparent;
+    border-radius: 25px;
+    color: white;
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+    position: relative;
+    left: 370px;
+    top: -20px;
+    outline: none !important;
+  }
+
+
+
+
+
+.logo-apps {
+  width: 130px;
+  position: relative;
+  left: 350px;
+  margin-top: 20px;
+}
+
+.logo-apps-1 {
+  width: 165px;
+  position: relative;
+  left: 420px;
+  margin-top: 20px;
+}
+
+.logo-apps-2 {
+  width: 130px;
+  position: relative;
+  left: 400px;
+  margin-top: 20px;
+}
+
+
+
+  .nav-link {
+    color: #003067 !important;
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+    letter-spacing: 1px;
+    position: relative;
+    left: 25px;
+  }
+
+
+}
+
+
+
+
+
+/* iPad pro(portrait) ----------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+
+
+  .button-optimal {
+    background-color: #1b94ed;
+    height: 50px;
+    width: 170px;
+    border: transparent;
+    border-radius: 25px;
+    color: white;
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+    position: relative;
+    left: 350px;
+    top: -20px;
+    outline: none !important;
+  }
+
+
+
+.white-smoke {
+  background-color: whitesmoke;
+  height:50vh;
+}
+  
+
+
+  .bac-image {
+    background-image: url("images/beauty.jpg") !important;
+    background-repeat: no-repeat;
+    height: 55vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+
+
+.white-card {
+  width: 100% !important;
+  background-color: rgba(255, 255, 255, 0.938);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  position: relative;
+  top: 130px;
+  height: 43vh;
+}
+
+
+
+
+
+}
+
+
+
+
+
