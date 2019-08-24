@@ -225,7 +225,7 @@ pulse of everything we do.
 <h5 className="newsletter">Sign up for our Newsletter.</h5>
 <p className="smaller-text">Sign up for our newsletter & <br></br>See why millions of people across 195 countries play cueball.</p>
 
-<form name="contact" method="post" data-netlify="true">
+<form name="team" method="post" data-netlify="true">
 
 <input type="email" name="email" className="email-field" placeholder="Enter your email e.g johnson@gmail.com" required/> <br></br>
 
