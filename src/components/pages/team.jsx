@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Navbar from "./partials/navbar";
 import  facemember from "../../facemember.svg";
 import facememeber_2 from "../../facememeber_2.svg";
@@ -225,12 +224,9 @@ pulse of everything we do.
 <h5 className="newsletter">Sign up for our Newsletter.</h5>
 <p className="smaller-text">Sign up for our newsletter & <br></br>See why millions of people across 195 countries play cueball.</p>
 
-<form method="POST" data-netlify="true">
+<form name="team" method="POST" data-netlify="true">
 
 <input type="email" name="email" className="email-field" placeholder="Enter your email e.g johnson@gmail.com" required/> <br></br>
-
-
-<div data-netlify-recaptcha="true"></div>
 
 
 <button type="submit" className="btn-submit-news">Yes, sign me up. </button>
@@ -252,28 +248,6 @@ pulse of everything we do.
 
     </div>
 
-
-
-    <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
 
 
 </div>
