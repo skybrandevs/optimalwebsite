@@ -43,7 +43,7 @@ const Navbar = () => (
           </li>
 
           <li className="nav-item">
-            <Link to="" className="nav-link menu-mrg a-2">
+            <Link to="/team" className="nav-link menu-mrg a-2">
               Our team
             </Link>
           </li>
