@@ -192,6 +192,48 @@ const Landing = () => (
       {/*brief about us div */}
     </div>
 
+
+
+
+
+    <div className="curve-blue">
+
+
+<div className="container">
+
+
+<div className="row">
+
+<div className="col-sm-12">
+
+<h5 className="newsletter">Sign up for our Newsletter.</h5>
+<p className="smaller-text">Sign up for our newsletter & <br></br>See why millions of people across 195 countries play cueball.</p>
+
+<form name="team" method="POST" data-netlify="true">
+
+<input type="email" name="email" className="email-field" placeholder="Enter your email e.g johnson@gmail.com" required/> <br></br>
+
+
+<button type="submit" className="btn-submit-news">Yes, sign me up. </button>
+
+
+</form>
+
+<p className="spam">*enter your mail we promise not to spam you.*</p>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+    </div>
+
+
     <div className="container">
       <p className="clients-paragh-2">"Don’t just take our word for it"</p>
       <h5 className="clients-intro-2">What our gamers and clients say ...</h5>
@@ -260,6 +302,11 @@ const Landing = () => (
 
       {/*app signup div */}
     </div>
+
+
+
+
+    
 
     {/*main parent closing div  */}
   </div>

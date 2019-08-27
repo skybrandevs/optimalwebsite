@@ -49,7 +49,7 @@ const Footer = () => (
           </li>
 
           <li>
-            <Link to="" className="footer-link">
+            <Link to="/service" className="footer-link">
               Services
             </Link>
           </li>

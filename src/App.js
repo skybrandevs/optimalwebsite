@@ -4,6 +4,7 @@ import "./App.css";
 import Landing from "./components/pages/landing";
 import About from "./components/pages/about";
 import Team from "./components/pages/team";
+import Service from "./components/pages/service";
 import Footer from "./components/pages/partials/footer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" component={Landing} />
         <Route path="/about" component={About} />
         <Route path="/team" component={Team} />
+        <Route path="/service" component={Service}/>
       </Switch>
       <Footer />
     </Router>
