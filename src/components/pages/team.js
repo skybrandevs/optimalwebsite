@@ -35,7 +35,7 @@ Meet our outstanding & creative
 team members 
       </h5>
 
-      <p className="middle-text">We love & encourage creative mind...</p>
+      <p className="middle-text">We love & encourage creative minds...</p>
 
       <p className="clients-paragh">
       At Optimal Source Plus Ltd, we have our eyes on the ball, <br></br>
