@@ -29,7 +29,7 @@ const Footer = () => (
               <span>
                 <img src={mail} className="img-fluid small" alt="icon" />
               </span>
-              help@optimalsource.com
+              help@optimalsplus.com
             </Link>
           </li>
         </div>

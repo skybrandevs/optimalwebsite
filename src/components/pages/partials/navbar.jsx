@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import icon_user_account from "../../../icon_user_account.svg";
 import optimal from "../../../optimal.png";
+import nav from "../../../nav.svg";
 
 
 const Navbar = () => (
@@ -21,7 +22,7 @@ const Navbar = () => (
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+        <span> <img src={nav} className="icon-nav"/> </span>
       </button>
 
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">

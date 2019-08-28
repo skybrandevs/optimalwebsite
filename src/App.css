@@ -7,6 +7,15 @@
 }
 
 
+.icon-nav{
+  width: 30px;
+}
+
+.navbar-toggler{
+outline: none !important;
+}
+
+
 .bac-service{
 background-image: url("images/bac-services.svg") !important;
 background-repeat: no-repeat;
@@ -20,8 +29,9 @@ background-size: cover;
 width: 350px;
 margin-top: 100px;
 margin-bottom: 5px;
-position: relative;
-left:12%;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .white-smoke-2{
@@ -32,10 +42,11 @@ background-color: whitesmoke;
 
 .color-link{
   font-family: ApercuProBoldimport;
-  position: relative;
-  left:85px;
-  color: #ED63A7;
+ color: #ED63A7;
 margin-bottom: 130px;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 border-left: transparent;
 border-right: transparent;
@@ -595,6 +606,14 @@ top: 315px;
   }
 
 
+  .bac-service{
+    background-image: url("images/bac-services.svg") !important;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    }
+    
+
 
 .team-face{
 
@@ -782,6 +801,20 @@ top: 315px;
   .terms {
     padding: 30px 30px 30px 30px;
   }
+
+
+
+
+.white-card {
+  width: 100% !important;
+  background-color: rgba(255, 255, 255, 0.938);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  position: relative;
+  top: 130px;
+  height:80vh;
+}
+
 }
 
 .fixed-bottom {
@@ -830,6 +863,16 @@ display: none;
 display:none !important;
 
 }
+
+
+
+.bac-service{
+  background-image: url("images/bac-services.svg") !important;
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: cover;
+  }
+  
 
 
 .team-face{
@@ -952,6 +995,16 @@ display:none !important;
     width: 100px !important;
     
     }
+
+
+
+  .bac-service{
+    background-image: url("images/bac-services.svg") !important;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    }
+    
   
   
   .member-name{
