@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Service = () => (
 
-  <div>
+  <div className="hide-all">
 
 <div className="white-smoke-2">
 <div className="bac-service">
@@ -83,6 +83,8 @@ Visit Official Website.
                   believe everyone should have freedom of choice as to where,
                   <br /> when and how you work.
                 </p>
+
+                <a href="test.html"> test</a>
 
 <div className="row">
 
