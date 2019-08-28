@@ -210,7 +210,7 @@ const Landing = () => (
 <p className="smaller-text">Sign up for our newsletter & <br></br>See why millions of people across 195 countries play cueball.</p>
 
 <a href="newsletter.html" target="_blank;">
-<button className="btn-submit-news">Proceed to up. </button>
+<button className="btn-submit-news">let's proceed now. </button>
 </a>
 
 
