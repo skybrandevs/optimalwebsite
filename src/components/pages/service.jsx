@@ -84,8 +84,7 @@ Visit Official Website.
                   <br /> when and how you work.
                 </p>
 
-                <a href="test.html"> test</a>
-
+            
 <div className="row">
 
 <div className="col-sm-3">
