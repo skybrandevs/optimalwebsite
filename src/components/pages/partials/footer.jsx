@@ -43,7 +43,7 @@ const Footer = () => (
           </li>
 
           <li>
-            <Link to="" className="footer-link">
+            <Link to="/contact" className="footer-link">
               Contact us
             </Link>
           </li>

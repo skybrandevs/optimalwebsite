@@ -50,7 +50,7 @@ const Navbar = () => (
           </li>
 
           <li className="nav-item">
-            <Link to="" className="nav-link menu-mrg a-2">
+            <Link to="/contact" className="nav-link menu-mrg a-2">
               Contact
             </Link>
           </li>

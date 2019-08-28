@@ -27,10 +27,9 @@ const Service = () => (
       </h5>
 
       <p className="body-services">
-                  Since 2017 Remote-how team is helping to push remote work into
-                  the mainstream. <br /> We are a team of 19 enthusiasts that
-                  believe everyone should have freedom of choice as to where,
-                  <br /> when and how you work.
+      We lways strive to understand specific digital and economical challenges people face and provide solutions through our innovations. 
+Our goal is to improve the lives of 5 million people through our products and services by year 2040. 
+We will be the best expression for creative innovations and will always place people at the core of our products and services.
                 </p>
 
 
@@ -78,10 +77,9 @@ Visit Official Website.
       Other products & services.
       </h5>
       <p className="body-services">
-                  Since 2017 Remote-how team is helping to push remote work into
-                  the mainstream. <br /> We are a team of 19 enthusiasts that
-                  believe everyone should have freedom of choice as to where,
-                  <br /> when and how you work.
+                  Since 2017 Optimal Source plus Ltd team is helping to push creativity and tech into
+                  the mainstream. <br /> We are a team of great enthusiasts that
+                  believe everyone should have freedom of choice.
                 </p>
 
             

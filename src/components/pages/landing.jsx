@@ -26,10 +26,8 @@ const Landing = () => (
       <div>
         <h3 className="h3-font">Moving the world,together.</h3>
         <p className="paragraph">
-          Optimal source is a complete DevOps platform, <br />
-          delivered as a single application.From project <br />
-          planning and source code management to <br /> CI/CD, monitoring, and
-          security.
+        Optimal Source Plus LTD is a creative agency <br/> that leverages on advanced technologies to 
+deliver <br/> consolidated solutions through meaningful innovations. 
         </p>
         <img
           src={play_cue_ball}

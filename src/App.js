@@ -5,6 +5,7 @@ import Landing from "./components/pages/landing";
 import About from "./components/pages/about";
 import Team from "./components/pages/team";
 import Service from "./components/pages/service";
+import Contact from "./components/pages/contact";
 import Footer from "./components/pages/partials/footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/team" component={Team} />
         <Route path="/service" component={Service}/>
+        <Route path="/contact" component={Contact}/>
       </Switch>
       <Footer />
     </Router>
