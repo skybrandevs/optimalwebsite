@@ -60,7 +60,7 @@ display: block;
   }
 
 
-  input{
+  input , textarea{
       text-align: center !important;
       font-family: ApercuProBoldimport !important;
       font-weight: lighter !important;
