@@ -242,7 +242,7 @@ left:82px ;
   border-radius: 5px;
   position: relative;
   top: 130px;
-  height: 70vh;
+  height: 80vh;
 }
 
 .button-optimal {
@@ -623,8 +623,14 @@ top: 315px;
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .bg-light {
-    background-color:#003067c4  !important;
+    background-color:#003067  !important;
     height: fit-content !important;
+  }
+
+
+  .logo-site {
+    width: 80px;
+    margin-top: -5.5px;
   }
 
 
@@ -691,10 +697,11 @@ top: 315px;
 
 
   .bac-image {
-    background-image: url("images/mobile-background.jpg") !important;
+    background-image: url("images/mobi.png") !important;
     background-repeat: no-repeat;
-    height: 150vh;
-    background-size: cover;
+    height: 100vh;
+   
+    background-attachment: scroll;
   }
 
   .h3-font {
@@ -718,16 +725,15 @@ top: 315px;
 
   .nav-link {
     color: white !important;
-    font-weight: bolder;
+    font-weight:100;
     font-family: ApercuProBoldimport;
-    letter-spacing: 1px;
     position: initial !important;
   }
 
   .menu-mrg {
-    text-align: center !important;
-    margin-top: -20px !important;
-    letter-spacing: 7px;
+    text-align: left !important;
+    margin-top:-25px !important;
+  
   }
 
   .icon-set {
@@ -766,6 +772,7 @@ top: 315px;
     background-image: url("images/mobile-background-2.jpg") !important;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
   }
 
   .mobile-intro {
@@ -845,9 +852,21 @@ top: 315px;
   border: 2px solid transparent;
   border-radius: 5px;
   position: relative;
-  top: 130px;
-  height:80vh;
+  top: -20px;
+  height:95vh;
 }
+
+
+.cueball-create {
+  font-family: ApercuProBoldimport;
+  color: #003067;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 140px;
+}
+
 
 }
 
