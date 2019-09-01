@@ -15,6 +15,17 @@
 }
 
 
+
+.navbar-toggler{
+
+  border: transparent !important;
+  
+    }
+  
+
+
+
+
 .mrg-top-services{
 
 margin-top: 150px !important;
@@ -90,7 +101,7 @@ left:82px ;
 }
 
 .bg-light {
-  background-color:#00306750 !important;
+  background-color:transparent !important;
   height: 80px !important;
 }
 
@@ -154,8 +165,8 @@ left:82px ;
 }
 
 .logo-site {
-  width: 145px;
-  margin-top: -5.5px;
+  width: 110px;
+  margin-top: -9.5px;
 }
 
 .menu-mrg {
@@ -707,11 +718,13 @@ top: 315px;
   .h3-font {
     text-align: center;
     color: white;
-    margin-top: 160px;
+    margin-top: 120px;
     font-family: ApercuProBoldimport;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
-    line-height: 49px;
+    line-height: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .paragraph {
@@ -913,7 +926,7 @@ display: none;
 
 .logo-apps-1 , .logo-apps-2 ,.logo-apps {
 
-display:none !important;
+display: none !important;
 
 }
 

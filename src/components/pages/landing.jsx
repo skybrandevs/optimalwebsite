@@ -21,7 +21,7 @@ import Navbar from "./partials/navbar";
 const Landing = () => (
   <div className="hide-all">
     <div className="bac-image">
-      <Navbar />
+      <Navbar/>
 
       <div>
         <h3 className="h3-font">Moving the world,together.</h3>
