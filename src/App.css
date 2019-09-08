@@ -50,9 +50,9 @@ outline: none !important;
 
 
 .bac-service{
-background-image: url("images/bac-services.svg") !important;
+background-image: url("images/netflix.png") !important;
 background-repeat: no-repeat;
-height: 100vh;
+height: 55vh;
 background-size: cover;
 }
 
@@ -658,9 +658,9 @@ top: 315px;
 
 
   .bac-service{
-    background-image: url("images/bac-services.svg") !important;
+    background-image: url("images/netflix.png") !important;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 55vh;
     background-size: cover;
     }
     
@@ -701,13 +701,8 @@ top: 315px;
   left:0px;
   top:20px;
   font-size: 11px;
-
-}
   
-
-
-
-  .bac-image {
+} .bac-image {
     background-image: url("images/mobi.png") !important;
     background-repeat: no-repeat;
     height: 100vh;
@@ -933,7 +928,7 @@ display: none !important;
 
 
 .bac-service{
-  background-image: url("images/bac-services.svg") !important;
+  background-image: url("images/netflix.png") !important;
   background-repeat: no-repeat;
   height: 90vh;
   background-size: cover;
@@ -1065,7 +1060,7 @@ display: none !important;
 
 
   .bac-service{
-    background-image: url("images/bac-services.svg") !important;
+    background-image: url("images/netflix.png") !important;
     background-repeat: no-repeat;
     height: 90vh;
     background-size: cover;

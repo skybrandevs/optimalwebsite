@@ -54,21 +54,25 @@ pulse of everything we do.
 {/*
     <img src={facemember} className="img-fluid team-face" alt=""/>
 */}
-    <h6 className="member-name">Micheal Saw</h6>
-    <h6 className="member-position">Ceo/Manager</h6>
+    <h6 className="member-name">Micheal Iyaki</h6>
+    <h6 className="member-position">Co-founder of K&I Craft.</h6>
 
+{/*
     <p className="about-member">Bsce Maths , Phd statistics.</p>
-
+*/}
 </div>
 
 <div className="col-sm-3 col">
    {/*
 <img src={facememeber_2} className="img-fluid team-face" alt=""/> 
    */}
-<h6 className="member-name">Sharon Ogun</h6>
-    <h6 className="member-position">Hr Manager</h6>
+<h6 className="member-name">Tobi Iyaki</h6>
+    <h6 className="member-position">Head of Marketing.</h6>
 
-    <p className="about-member">Bsce Maths , Phd phsycology</p>
+{/*
+   
+<p className="about-member">Bsce Maths , Phd phsycology</p>
+*/}
 </div>
 
 
@@ -76,10 +80,12 @@ pulse of everything we do.
     {/*
 <img src={facemember_3} className="img-fluid team-face" alt=""/>
     */}
-<h6 className="member-name">Salami Moshood</h6>
-    <h6 className="member-position">Country Manager</h6>
+<h6 className="member-name">Yemi Olufelo</h6>
+    <h6 className="member-position">Business operations <br></br> & development.</h6>
 
+{/*
     <p className="about-member"> Hnd Arts , Msce++ statistics.</p>
+*/}
 </div>
 
 
@@ -102,32 +108,36 @@ pulse of everything we do.
 {/*
     <img src={opt1} className="img-fluid team-face" alt=""/>
 */}
-    <h6 className="member-name">Vera Patric</h6>
-    <h6 className="member-position">Ceo/Manager</h6>
+    <h6 className="member-name">Moshood Ogunsanya</h6>
+    <h6 className="member-position">Brand manager & co-operate <br></br> communications.</h6>
 
+{/*
     <p className="about-member">Bsce Maths , Phd statistics.</p>
 
+*/}
 </div>
 
 <div className="col-sm-3 col">
    {/*
 <img src={opt2} className="img-fluid team-face" alt=""/> 
-   */}
+   
 <h6 className="member-name">Yomi Adeogun</h6>
     <h6 className="member-position">Hr Manager</h6>
 
     <p className="about-member">Bsce Maths , Phd phsycology</p>
+    */}
 </div>
 
 
 <div className="col-sm-3 col">
     {/*
 <img src={opt3} className="img-fluid team-face" alt=""/>
-    */}
+    
 <h6 className="member-name">Jessica Abasi</h6>
     <h6 className="member-position">Country Manager</h6>
 
     <p className="about-member"> Hnd Arts , Msce++ statistics.</p>
+    */}
 </div>
 
 

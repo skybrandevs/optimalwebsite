@@ -12,7 +12,7 @@ const Footer = () => (
           <h5 className="optimal-name">Optimal source Ltd.</h5>
 
           <li>
-            <Link to="/" className="footer-link">
+            <a href="https://www.tidio.com/talk/lrfsr1nhdlfnmktazenxjvjufdpsd2i8" target="_blank;" className="footer-link">
               <span>
                 <img
                   src={question_icon}
@@ -21,7 +21,7 @@ const Footer = () => (
                 />
               </span>
               Help center
-            </Link>
+            </a>
           </li>
 
           <li>
@@ -29,7 +29,7 @@ const Footer = () => (
               <span>
                 <img src={mail} className="img-fluid small" alt="icon" />
               </span>
-              help@optimalsplus.com
+              help@mail-optimalsplus.com
             </Link>
           </li>
         </div>
