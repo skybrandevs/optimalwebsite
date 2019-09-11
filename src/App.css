@@ -616,7 +616,7 @@ top: 315px;
 .btn-submit-news{
   position: relative;
   top: 289px;
-  width: 100%;
+  width: 300px;
   color: white;
   background-color: #1b94ed;
   border: transparent;
@@ -624,8 +624,10 @@ top: 315px;
   height:55px;
   border-radius: 26px;
   outline: none !important; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 
 /*end*/
