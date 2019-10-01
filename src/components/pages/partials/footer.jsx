@@ -29,7 +29,7 @@ const Footer = () => (
               <span>
                 <img src={mail} className="img-fluid small" alt="icon" />
               </span>
-              help@mail-optimalsplus.com
+              contact@mail-optimalsplus.com
             </Link>
           </li>
         </div>
@@ -113,11 +113,20 @@ const Footer = () => (
           All rights reserved.
         </p>
 
-        <img src={scroller} className="img-fluid scroller fixed-bottom" />
+  
+{/*
+<div>
+ <img src={scroller} className="img-fluid scroller fixed-bottom" />
+ </div>
+*/}
+
+
       </div>
     </div>
 
     {/*footer div */}
+
+    
   </div>
 );
 

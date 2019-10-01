@@ -66,8 +66,8 @@ pulse of everything we do.
    {/*
 <img src={facememeber_2} className="img-fluid team-face" alt=""/> 
    */}
-<h6 className="member-name">Tobi Iyaki</h6>
-    <h6 className="member-position">Head of Marketing.</h6>
+<h6 className="member-name">Daniel Iyaki</h6>
+    <h6 className="member-position">Director</h6>
 
 {/*
    

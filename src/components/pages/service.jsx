@@ -74,7 +74,7 @@ Visit Official Website.
 <div className="container">
 
 <h5 className="clients-intro">
-      Other products & services.
+      Who we are 
       </h5>
       <p className="body-services">
                   Since 2017 Optimal Source plus Ltd team is helping to push creativity and tech into

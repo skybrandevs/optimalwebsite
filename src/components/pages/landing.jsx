@@ -40,9 +40,10 @@ deliver <br/> consolidated solutions through meaningful innovations.
       </div>
     </div>
 
+
     <div className="container">
       <h5 className="clients-intro">
-        {" "}
+        
         We collaborate with more than 100,000 organizations around the globe
       </h5>
 
@@ -112,52 +113,65 @@ deliver <br/> consolidated solutions through meaningful innovations.
       {/*closing div for clients container  */}
     </div>
 
+
+
+
+
     <div className="container">
       <h5 className="clients-intro">
-        The key questions are answered by our product & services.
+        Facts about our services.
       </h5>
 
       <div className="row">
         <div className="col-sm-4">
-          <h6 className="numbers">100%</h6>
+        
+          <h6 className="numbers">1</h6>
+          
+          
           <p className="clients-paragh">
-            Monthly increment in <br /> transparency.
+          We have a transparency policy
           </p>
 
           <p className="body-1">
-            Save time, avoid losing work and information, delegate, and track
-            tasks to stay on schedule
+          We understand how fragile trust is that is why we operate a policy that will ensure we keep yours. 
+
+
           </p>
         </div>
 
         <div className="col-sm-4">
-          <h6 className="numbers">5%</h6>
+          
+          <h6 className="numbers">2</h6>
+          
           <p className="clients-paragh">
-            Per minutes increment of <br />
-            awesome services.
+          We beat deadlines
           </p>
 
           <p className="body-1">
-            We work hard to build great game API networks for great instant payouts.
+          With us, you never have to worry about running against the clock. with delivery in real time,Our team works hard to build efficient game API networks for great instant payout. 
+
           </p>
         </div>
 
         <div className="col-sm-4">
-          <h6 className="numbers">95%</h6>
+        
+          <h6 className="numbers">3</h6>
+          
           <p className="clients-paragh">
-            Weekly increment in transactions
-            <br /> & payout.{" "}
+          Track Task
           </p>
 
           <p className="body-1">
-            Tracking tasks allows everyone to understand which are more
-            important or required.
+          we also place priority on our clients knowing our progress levels.
           </p>
         </div>
       </div>
 
       {/*closing div for services container  */}
     </div>
+
+
+
 
     <div className="cutslide">
       <div className="container">
@@ -292,11 +306,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
       {/*app signup div */}
     </div>
 
-
-
-
     
-
     {/*main parent closing div  */}
   </div>
 );
