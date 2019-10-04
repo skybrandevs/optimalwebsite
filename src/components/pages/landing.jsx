@@ -7,9 +7,9 @@ import cn from "../../cn.svg";
 import spotify from "../../spotify.svg";
 import dropbox from "../../dropbox.svg";
 import slack from "../../slack.svg";
-import cocacola from "../../cocacola.svg";
-import netflix from "../../netflix.svg";
-import toshiba from "../../toshiba.svg";
+import logo1 from "../../logo1.jpg";
+import logo2 from "../../logo2.png";
+import logo3 from "../../logo3.png";
 import booking from "../../booking.svg";
 import face_1 from "../../face_1.svg";
 import face_2 from "../../face_2.svg";
@@ -53,22 +53,22 @@ deliver <br/> consolidated solutions through meaningful innovations.
       </p>
 
       <div className="row">
-        <div className="col-sm-3 col">
-          <img src={cn} className="img-fluid clients" alt="cartoonnetwork" />
+        <div className="col-sm col">
+          <img src={logo1} className="img-fluid clients zoom" alt="cartoonnetwork" />
         </div>
 
-        <div className="col-sm-3 col">
-          <img src={slack} className="img-fluid clients" alt="cartoonnetwork" />
+        <div className="col-sm col">
+          <img src={logo2} className="img-fluid clients zoom" alt="cartoonnetwork" />
         </div>
 
-        <div className="col-sm-3 col">
+        <div className="col-sm col">
           <img
-            src={dropbox}
-            className="img-fluid clients"
+            src={logo3}
+            className="img-fluid clients zoom"
             alt="cartoonnetwork"
           />
         </div>
-
+{/*
         <div className="col-sm-3 col">
           <img
             src={spotify}
@@ -76,11 +76,13 @@ deliver <br/> consolidated solutions through meaningful innovations.
             alt="cartoonnetwork"
           />
         </div>
+*/}
       </div>
 
       {/* next */}
 
       <div className="row">
+        {/*
         <div className="col-sm-3 col">
           <img src={cocacola} className="img-fluid clients" alt="cocacola" />
         </div>
@@ -108,6 +110,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
             alt="cartoonnetwork"
           />
         </div>
+        */}
       </div>
 
       {/*closing div for clients container  */}
