@@ -6,6 +6,7 @@ import About from "./components/pages/about";
 import Team from "./components/pages/team";
 import Service from "./components/pages/service";
 import Contact from "./components/pages/contact";
+import Careers from "./components/pages/careers";
 import Footer from "./components/pages/partials/footer";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/team" component={Team} />
         <Route path="/service" component={Service}/>
         <Route path="/contact" component={Contact}/>
+        <Route path="/careers" component={Careers}/>
       </Switch>
       <Footer/>
     </Router>

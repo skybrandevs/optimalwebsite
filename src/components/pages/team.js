@@ -1,19 +1,9 @@
 import React from "react";
 import Navbar from "./partials/navbar";
-import  facemember from "../../facemember.svg";
-import facememeber_2 from "../../facememeber_2.svg";
-import facemember_3 from "../../facemember_3.svg";
-import opt1 from "../../opt1.svg";
-import opt2 from "../../opt2.svg";
-import opt3 from "../../opt3.svg";
-import cn from "../../cn.svg";
-import spotify from "../../spotify.svg";
-import dropbox from "../../dropbox.svg";
-import slack from "../../slack.svg";
-import cocacola from "../../cocacola.svg";
-import netflix from "../../netflix.svg";
-import toshiba from "../../toshiba.svg";
-import booking from "../../booking.svg";
+import logo1 from "../../logo1.jpg";
+import logo2 from "../../logo2.png";
+import logo3 from "../../logo3.png";
+import linked from "../../linked.svg";
 
 const Team = () => (
 
@@ -56,6 +46,11 @@ pulse of everything we do.
 */}
     <h6 className="member-name">Micheal Iyaki</h6>
     <h6 className="member-position">Co-founder of K&I Craft.</h6>
+    <p className="profile">At Optimal Source Plus Ltd, we have our eyes on the ball,
+our ears to the ground and our fingers on the pulse of everything we do.</p>
+
+
+<a href="#"> <img src={linked} id="icon-prof" className="zoom"/> </a>
 
 {/*
     <p className="about-member">Bsce Maths , Phd statistics.</p>
@@ -68,6 +63,9 @@ pulse of everything we do.
    */}
 <h6 className="member-name">Daniel Iyaki</h6>
     <h6 className="member-position">Director</h6>
+    <p className="profile">At Optimal Source Plus Ltd, we have our eyes on the ball,
+our ears to the ground and our fingers on the pulse of everything we do.</p>
+<a href="#"> <img src={linked} id="icon-prof" className="zoom"/> </a>
 
 {/*
    
@@ -82,6 +80,9 @@ pulse of everything we do.
     */}
 <h6 className="member-name">Yemi Olufelo</h6>
     <h6 className="member-position">Business operations <br></br> & development.</h6>
+    <p className="profile">At Optimal Source Plus Ltd, we have our eyes on the ball,
+our ears to the ground and our fingers on the pulse of everything we do.</p>
+<a href="#"> <img src={linked} id="icon-prof" className="zoom"/> </a>
 
 {/*
     <p className="about-member"> Hnd Arts , Msce++ statistics.</p>
@@ -110,6 +111,9 @@ pulse of everything we do.
 */}
     <h6 className="member-name">Moshood Ogunsanya</h6>
     <h6 className="member-position">Brand manager & co-operate <br></br> communications.</h6>
+    <p className="profile">At Optimal Source Plus Ltd, we have our eyes on the ball,
+our ears to the ground and our fingers on the pulse of everything we do.</p>
+<a href="#"> <img src={linked} id="icon-prof" className="zoom"/> </a>
 
 {/*
     <p className="about-member">Bsce Maths , Phd statistics.</p>
@@ -151,12 +155,9 @@ pulse of everything we do.
 
 
 
-
-
-
 <div className="container">
-      <h5 className="clients-intro mrg-top-team-2">
-        {" "}
+      <h5 className="clients-intro">
+        
         We collaborate with more than 100,000 organizations around the globe
       </h5>
 
@@ -166,65 +167,24 @@ pulse of everything we do.
       </p>
 
       <div className="row">
-        <div className="col-sm-3 col">
-          <img src={cn} className="img-fluid clients" alt="cartoonnetwork" />
+        <div className="col-sm col">
+          <img src={logo1} className="img-fluid clients zoom" alt="cartoonnetwork" />
         </div>
 
-        <div className="col-sm-3 col">
-          <img src={slack} className="img-fluid clients" alt="cartoonnetwork" />
+        <div className="col-sm col">
+          <img src={logo2} className="img-fluid clients zoom" alt="cartoonnetwork" />
         </div>
 
-        <div className="col-sm-3 col">
+        <div className="col-sm col">
           <img
-            src={dropbox}
-            className="img-fluid clients"
+            src={logo3}
+            className="img-fluid clients zoom"
             alt="cartoonnetwork"
           />
         </div>
 
-        <div className="col-sm-3 col">
-          <img
-            src={spotify}
-            className="img-fluid clients"
-            alt="cartoonnetwork"
-          />
-        </div>
       </div>
-
-      {/* next */}
-
-      <div className="row">
-        <div className="col-sm-3 col">
-          <img src={cocacola} className="img-fluid clients" alt="cocacola" />
-        </div>
-
-        <div className="col-sm-3 col ">
-          <img
-            src={netflix}
-            className="img-fluid clients"
-            alt="cartoonnetwork"
-          />
-        </div>
-
-        <div className="col-sm-3 col ">
-          <img
-            src={toshiba}
-            className="img-fluid clients"
-            alt="cartoonnetwork"
-          />
-        </div>
-
-        <div className="col-sm-3 col">
-          <img
-            src={booking}
-            className="img-fluid clients"
-            alt="cartoonnetwork"
-          />
-        </div>
       </div>
-
-      {/*closing div for clients container  */}
-    </div>
     
 
 

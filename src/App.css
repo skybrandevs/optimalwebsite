@@ -1,3 +1,4 @@
+/*
 .bac-image {
   background-image: url("images/beauty.jpg") !important;
   background-repeat: no-repeat;
@@ -5,7 +6,80 @@
   background-size: cover;
   background-attachment: fixed;
 }
+*/
 
+
+a{
+
+text-decoration: none !important;
+
+}
+
+
+.about{
+
+width: 70px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -80px;
+margin-top: 80px;
+
+}
+
+
+#icon-prof{
+
+display: block !important;
+margin-left: auto !important;
+margin-right: auto !important;
+width: 18px;
+
+}
+
+#SLIDE_BG{
+
+  width: 100%;
+  height:100vh;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   backface-visibility: hidden;
+   animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-attachment: fixed;
+    background-image: url('images/beauty.jpg');
+  
+  }
+  
+  
+  @keyframes slideBg {
+  
+  
+   0% {
+       background-image: url('images/beauty.jpg');
+  }
+  
+  
+  
+  25% {
+      background-image: url('images/beauty2.jpg');
+  }
+  
+  
+  }
+
+
+
+
+  .profile{
+
+text-align:center;
+font-family: ApercuProBoldimport;
+font-size: 12px;
+padding: 30px 30px 30px 30px;
+
+  }
 
 
 .zoom {
@@ -489,7 +563,7 @@ li {
 
 .smoke{
   background-color: whitesmoke !important;
-  height:100vh;
+  height:80vh;
   padding-top: 40px;
 }
 

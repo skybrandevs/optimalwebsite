@@ -27,7 +27,7 @@ const Service = () => (
       </h5>
 
       <p className="body-services">
-      We lways strive to understand specific digital and economical challenges people face and provide solutions through our innovations. 
+      We always strive to understand specific digital and economical challenges people face and provide solutions through our innovations. 
 Our goal is to improve the lives of 5 million people through our products and services by year 2040. 
 We will be the best expression for creative innovations and will always place people at the core of our products and services.
                 </p>

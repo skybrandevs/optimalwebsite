@@ -1,13 +1,11 @@
 import React from "react";
 import Navbar from "./partials/navbar";
-import cn from "../../cn.svg";
-import spotify from "../../spotify.svg";
-import dropbox from "../../dropbox.svg";
-import slack from "../../slack.svg";
-import cocacola from "../../cocacola.svg";
-import netflix from "../../netflix.svg";
-import toshiba from "../../toshiba.svg";
-import booking from "../../booking.svg";
+import logo1 from "../../logo1.jpg";
+import logo2 from "../../logo2.png";
+import logo3 from "../../logo3.png";
+import about from "../../about.svg";
+import mission from "../../mission.svg";
+import vision from "../../vision.svg"
 
 const About = () => (
   <div className="hide-all">
@@ -18,6 +16,10 @@ const About = () => (
     {/**close of background image */}
 
     <div className="container">
+
+
+
+      <img src={about} className="about"/>
       <h5 className="clients-intro">About Us</h5>
 
       <p className="middle-text">We have an awesome story...</p>
@@ -32,6 +34,7 @@ const About = () => (
     </div>
 
     <div className="container">
+    <img src={mission} className="about"/>
       <h5 className="clients-intro">Mission</h5>
 
       <p className="middle-text">We tend to achieve all what we promise...</p>
@@ -43,6 +46,7 @@ const About = () => (
     </div>
 
     <div className="container">
+    <img src={vision} className="about"/>
       <h5 className="clients-intro">Vision</h5>
 
       <p className="middle-text">
@@ -56,88 +60,39 @@ const About = () => (
 
     <div>
       <div className="smoke">
-        <div className="container">
-          <h5 className="clients-intro">
-            {" "}
-            We collaborate with more than 100,000 organizations around the globe
-          </h5>
+      
 
-          <p className="clients-paragh">
-            Our diverse sense of brand experience with a well articulated <br />{" "}
-            strategic & tatical ideas that delivers.
-          </p>
+<div className="container">
+      <h5 className="clients-intro">
+        
+        We collaborate with more than 100,000 organizations around the globe
+      </h5>
 
-          <div className="row">
-            <div className="col-sm-3 col">
-              <img
-                src={cn}
-                className="img-fluid clients"
-                alt="cartoonnetwork"
-              />
-            </div>
+      <p className="clients-paragh">
+        Our diverse sense of brand experience with a well articulated <br />{" "}
+        strategic & tatical ideas that delivers.
+      </p>
 
-            <div className="col-sm-3 col">
-              <img
-                src={slack}
-                className="img-fluid clients"
-                alt="cartoonnetwork"
-              />
-            </div>
-
-            <div className="col-sm-3 col">
-              <img
-                src={dropbox}
-                className="img-fluid clients"
-                alt="cartoonnetwork"
-              />
-            </div>
-
-            <div className="col-sm-3 col">
-              <img
-                src={spotify}
-                className="img-fluid clients"
-                alt="cartoonnetwork"
-              />
-            </div>
-          </div>
-
-          {/* next */}
-
-          <div className="row">
-            <div className="col-sm-3 col">
-              <img
-                src={cocacola}
-                className="img-fluid clients"
-                alt="cocacola"
-              />
-            </div>
-
-            <div className="col-sm-3 col ">
-              <img
-                src={netflix}
-                className="img-fluid clients"
-                alt="cartoonnetwork"
-              />
-            </div>
-
-            <div className="col-sm-3 col ">
-              <img
-                src={toshiba}
-                className="img-fluid clients"
-                alt="cartoonnetwork"
-              />
-            </div>
-
-            <div className="col-sm-3 col">
-              <img
-                src={booking}
-                className="img-fluid clients"
-                alt="cartoonnetwork"
-              />
-            </div>
-          </div>
+      <div className="row">
+        <div className="col-sm col">
+          <img src={logo1} className="img-fluid clients zoom" alt="cartoonnetwork" />
         </div>
+
+        <div className="col-sm col">
+          <img src={logo2} className="img-fluid clients zoom" alt="cartoonnetwork" />
+        </div>
+
+        <div className="col-sm col">
+          <img
+            src={logo3}
+            className="img-fluid clients zoom"
+            alt="cartoonnetwork"
+          />
+        </div>
+
       </div>
+      </div>
+    </div>
     </div>
 
     {/** main parent div  */}

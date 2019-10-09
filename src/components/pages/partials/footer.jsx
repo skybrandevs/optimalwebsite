@@ -37,7 +37,7 @@ const Footer = () => (
           <h5 className="optimal-name">Company</h5>
 
           <li>
-            <Link to="" className="footer-link">
+            <Link to="/careers" className="footer-link">
               Careers
             </Link>
           </li>

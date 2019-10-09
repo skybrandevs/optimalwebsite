@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import appsLogo from "../../appsLogo.svg";
 import playLogo from "../../playLogo.svg";
-import play_cue_ball from "../../play_cue_ball.png";
+import play_cue_ball_1 from "../../play_cue_ball_1.png";
 import cn from "../../cn.svg";
 import spotify from "../../spotify.svg";
 import dropbox from "../../dropbox.svg";
@@ -20,7 +20,7 @@ import Navbar from "./partials/navbar";
 
 const Landing = () => (
   <div className="hide-all">
-    <div className="bac-image">
+    <div id="SLIDE_BG">
       <Navbar/>
 
       <div>
@@ -30,16 +30,17 @@ const Landing = () => (
 deliver <br/> consolidated solutions through meaningful innovations. 
         </p>
         <img
-          src={play_cue_ball}
+          src={play_cue_ball_1}
           className="img-fluid logo-apps-1"
           alt="logo"
         />{" "}
         <br />
-        <img src={appsLogo} className="img-fluid logo-apps" alt="logo" />
-        <img src={playLogo} className="img-fluid logo-apps-2" alt="logo" />
+        <img src={appsLogo} className="img-fluid logo-apps zoom" alt="logo" />
+        <img src={playLogo} className="img-fluid logo-apps-2 zoom" alt="logo" />
       </div>
     </div>
 
+{/*
 
     <div className="container">
       <h5 className="clients-intro">
@@ -68,7 +69,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
             alt="cartoonnetwork"
           />
         </div>
-{/*
+
         <div className="col-sm-3 col">
           <img
             src={spotify}
@@ -76,13 +77,13 @@ deliver <br/> consolidated solutions through meaningful innovations.
             alt="cartoonnetwork"
           />
         </div>
-*/}
+
       </div>
 
-      {/* next */}
+      
 
       <div className="row">
-        {/*
+        
         <div className="col-sm-3 col">
           <img src={cocacola} className="img-fluid clients" alt="cocacola" />
         </div>
@@ -110,13 +111,13 @@ deliver <br/> consolidated solutions through meaningful innovations.
             alt="cartoonnetwork"
           />
         </div>
-        */}
+      
       </div>
 
-      {/*closing div for clients container  */}
+    
     </div>
 
-
+*/}
 
 
 
@@ -124,6 +125,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
       <h5 className="clients-intro">
         Facts about our services.
       </h5>
+
 
       <div className="row">
         <div className="col-sm-4">
@@ -147,7 +149,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
           <h6 className="numbers">2</h6>
           
           <p className="clients-paragh">
-          We beat deadlines
+          We deliver in real time
           </p>
 
           <p className="body-1">
@@ -245,7 +247,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
       <h5 className="clients-intro-2">What our gamers and clients say ...</h5>
 
       <div className="media">
-        <img src={face_1} class="mr-3 img-fluid avatars" alt="face-1" />
+        <img src={face_1} class="mr-3 img-fluid avatars zoom" alt="face-1" />
         <div className="media-body">
           <h5 className="mt-0 user-name">Johnson Adebayo</h5>
           <p className="testimonials">
@@ -255,9 +257,9 @@ deliver <br/> consolidated solutions through meaningful innovations.
           </p>
 
           <div className="media mt-3">
-            <a className="mr-3" href="#">
-              <img src={face_2} class="mr-3 img-fluid avatars" alt="..." />
-            </a>
+          
+              <img src={face_2} class="mr-3 img-fluid avatars zoom" alt="..." />
+          
             <div className="media-body mrg-bottom">
               <h5 className="mt-0 user-name">Victoria Aderokun</h5>
               <p className="testimonials">
