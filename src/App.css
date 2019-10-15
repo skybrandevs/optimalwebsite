@@ -1498,7 +1498,7 @@ display: none !important;
 
   .hide-on-desk-top{
 
-    display: none !important;
+    display:block !important;
     
       }
 
