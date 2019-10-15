@@ -1505,6 +1505,22 @@ display: none !important;
 
 }}
 
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media,
+
+  .hide-on-desk-top{
+
+    display:none !important;
+    
+      }
+
+
+
+}
+
+
+
 /*end*/
 
 
