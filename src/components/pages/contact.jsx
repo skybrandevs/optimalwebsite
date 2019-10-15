@@ -9,7 +9,7 @@ const Contact = ()=> (
 
 <div className="hide-all">
 
-<div className="bac-contact">
+<div className="bac-contact" id="section2">
 
 <Navbar/>
 
@@ -43,7 +43,7 @@ feel free to reach out to us..whisper to us your messages , <br></br>we take all
                 </p>
 
 <a href="contact.html" target="_blank;">
-<img src={tell} className="img-fluid tell"/>
+<img src={tell} className="img-fluid zoom tell"/>
 </a>
     
 </div>

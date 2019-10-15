@@ -37,8 +37,8 @@ const Footer = () => (
           <h5 className="optimal-name">Company</h5>
 
           <li>
-            <Link to="/careers" className="footer-link">
-              Careers
+            <Link to="/privacy" className="footer-link">
+              Privacy
             </Link>
           </li>
 
@@ -62,6 +62,12 @@ const Footer = () => (
         </div>
         <div className="col-sm-3">
           <h5 className="optimal-name">Discover</h5>
+
+          <li>
+            <Link to="/careers" className="footer-link">
+              Careers
+            </Link>
+          </li>
 
           <li>
             <Link to="" className="footer-link">
@@ -114,11 +120,12 @@ const Footer = () => (
         </p>
 
   
-{/*
 <div>
- <img src={scroller} className="img-fluid scroller fixed-bottom" />
+  <a href="#section2">
+ <img src={scroller} className="img-fluid scroller fixed-bottom zoom" />
+</a>
  </div>
-*/}
+
 
 
       </div>

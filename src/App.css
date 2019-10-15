@@ -40,12 +40,12 @@ width: 18px;
 #SLIDE_BG{
 
   width: 100%;
-  height:100vh;
-   background-position: center center;
-   background-size: cover;
+  height: 100vh;
+  background-position:center center fixed;
+  background-size: cover;
    background-repeat: no-repeat;
    backface-visibility: hidden;
-   animation: slideBg 8s linear infinite 0s;
+   animation: slideBg 25s linear infinite 5s;
     animation-timing-function: ease-in-out;
     background-attachment: fixed;
     background-image: url('images/beauty.jpg');
@@ -215,29 +215,36 @@ left:82px ;
 }
 
 @font-face {
+  font-family: ApercuLightimport;
+  src: url("fonts/Apercu/Apercu Light.otf");
+}
+
+
+@font-face {
   font-family: ApercuProBoldimport;
   src: url("fonts/Apercu/ApercuProBold.otf");
 }
 
+
 .logo-apps {
   width: 130px;
-  position: relative;
-  left: 570px;
-  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-apps-1 {
   width: 165px;
-  position: relative;
-  left: 630px;
-  margin-top: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .logo-apps-2 {
   width: 130px;
-  position: relative;
-  left: 600px;
-  margin-top: 20px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .nav-link {
@@ -246,7 +253,8 @@ left:82px ;
   font-family: ApercuProBoldimport;
   letter-spacing: 1px;
   position: relative;
-  left: 400px;
+  left: 150px;
+  text-transform: uppercase !important;
 }
 
 .icon-set {
@@ -260,7 +268,7 @@ left:82px ;
 }
 
 .menu-mrg {
-  margin-left: 25px;
+  margin-left: 22.5px;
   margin-top: -15px;
 }
 
@@ -503,9 +511,7 @@ li {
   font-family: ApercuProBoldimport;
 }
 
-.terms {
-  text-align: center;
-}
+
 
 .link-fb {
   color: #38559a;
@@ -523,13 +529,15 @@ li {
 }
 
 .footer-link {
-  color: grey;
+  color:rgb(31, 29, 29);
 }
 
 .terms {
   font-family: ApercuProBoldimport;
-  font-size: 12px;
+  text-align: center;
+  font-size: 10.5px;
   margin-bottom: 50px;
+
 }
 
 .small {
@@ -727,8 +735,24 @@ top: 315px;
 /* responsive break point for mobile devices */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+
+  #SLIDE_BG{
+
+display: none !important;
+    
+    }
+    
+
+
+
+
+
+
+
   .bg-light {
-    background-color:#003067  !important;
+    background-color:#1b94ed !important;
     height: fit-content !important;
   }
 
@@ -976,7 +1000,7 @@ top: 315px;
 }
 
 .fixed-bottom {
-  width: 50px;
+  width:40px;
   margin-bottom: 30px !important;
   margin-left: 30px !important;
 }
@@ -1018,7 +1042,9 @@ display: none;
 
 .logo-apps-1 , .logo-apps-2 ,.logo-apps {
 
-display: none !important;
+display:block;
+margin-left: auto;
+margin-right: auto;
 
 }
 
@@ -1110,7 +1136,7 @@ display: none !important;
 
 
 .bg-light {
-  background-color:#0030678f  !important;
+  background-color:#1b94ed  !important;
   height: fit-content !important;
 }
 
@@ -1233,27 +1259,13 @@ display: none !important;
 
 
 
+  .logo-apps-1 , .logo-apps-2 ,.logo-apps {
 
-.logo-apps {
-  width: 130px;
-  position: relative;
-  left: 350px;
-  margin-top: 20px;
-}
-
-.logo-apps-1 {
-  width: 165px;
-  position: relative;
-  left: 420px;
-  margin-top: 20px;
-}
-
-.logo-apps-2 {
-  width: 130px;
-  position: relative;
-  left: 400px;
-  margin-top: 20px;
-}
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
 
 
 
@@ -1275,6 +1287,33 @@ display: none !important;
 
 /* iPad pro(portrait) ----------- */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+
+
+  .curve-blue{
+
+    background-image: url("images/blue-back-team.svg");
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+  #SLIDE_BG{
+
+    width: 100%;
+    height: 55vh;
+    background-position:center center fixed;
+    background-size: cover;
+     background-repeat: no-repeat;
+     backface-visibility: hidden;
+     animation: slideBg 8s linear infinite 0s;
+      animation-timing-function: ease-in-out;
+      background-attachment: fixed;
+      background-image: url('images/beauty.jpg');
+    
+    }
+
+
 
 
   .button-optimal {
@@ -1344,3 +1383,203 @@ background-repeat: no-repeat;
 */
 
 
+
+@media only screen and (width: 1024px){
+
+
+
+  .hide-on-desk-top{
+
+display: none !important;
+
+  }
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (width: 768px){
+
+
+
+  .hide-on-desk-top{
+
+display: none !important;
+
+  }
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (width: 1366px){
+
+
+
+  .hide-on-desk-top{
+
+display: none !important;
+
+  }
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (width:1440px){
+
+
+
+  .hide-on-desk-top{
+
+display: none !important;
+
+  }
+
+
+
+
+}
+
+
+@media only screen and (width:1280px){
+
+
+
+  .hide-on-desk-top{
+
+display: none !important;
+
+  }
+
+
+
+
+}
+
+
+@media only screen and (width:1200px){
+
+
+
+  .hide-on-desk-top{
+
+display: none !important;
+
+  }
+
+
+
+
+}
+
+
+/* media query for safari  browser only*/
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+ 
+
+  .hide-on-desk-top{
+
+    display: none !important;
+    
+      }
+
+
+}}
+
+/*end*/
+
+
+.slide-text{
+
+  color: white !important;
+
+
+}
+
+
+
+html{
+
+  scroll-behavior: smooth;
+}
+
+
+/*for scrollerbar*/
+     /* width */
+     ::-webkit-scrollbar {
+      width: 1.5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+      background:white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background:#59aaeb; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#59aaeb; 
+  }
+
+/*end*/
+
+
+
+.privacy-list{
+
+text-align: center;
+color: rgb(82, 64, 64);
+font-size: 15px;
+}
+
+
+.privacy-paragh{
+text-align: center;
+margin-top: 100px;
+font-family: ApercuLightimport;
+
+}
+
+
+.privacy-paragh-2{
+  text-align: center;
+  margin-top: 50px;
+  font-family: ApercuLightimport;
+  
+}
+
+
+
+
+
+.crds{
+
+  font-family: ApercuProBoldimport;
+  text-align: center;
+color:black;
+font-size: 15px;
+margin-top: 40px;
+}

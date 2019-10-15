@@ -9,7 +9,7 @@ import vision from "../../vision.svg"
 
 const About = () => (
   <div className="hide-all">
-    <div className="bac-about">
+    <div className="bac-about" id="section2">
       <Navbar />
     </div>
 

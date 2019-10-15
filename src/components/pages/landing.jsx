@@ -16,11 +16,14 @@ import face_2 from "../../face_2.svg";
 import cueball_app_screen from "../../cueball_app_screen.svg";
 import snooker_icon from "../../snooker_icon.png";
 import Navbar from "./partials/navbar";
+import beauty3 from "../../images/beauty3.jpg";
+import beauty4 from "../../images/beauty4.jpg";
 
 
 const Landing = () => (
   <div className="hide-all">
-    <div id="SLIDE_BG">
+
+<div id="SLIDE_BG">
       <Navbar/>
 
       <div>
@@ -33,12 +36,59 @@ deliver <br/> consolidated solutions through meaningful innovations.
           src={play_cue_ball_1}
           className="img-fluid logo-apps-1"
           alt="logo"
-        />{" "}
-        <br />
-        <img src={appsLogo} className="img-fluid logo-apps zoom" alt="logo" />
+        />
+      <br/>
+        <img src={appsLogo} className="img-fluid logo-apps zoom" alt="logo" /> <br/>
         <img src={playLogo} className="img-fluid logo-apps-2 zoom" alt="logo" />
       </div>
     </div>
+
+ 
+
+
+<div className="hide-on-desk-top carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+
+<Navbar/>
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+   
+  </ol>
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <a href="#" target="_blank;">
+   <img src={beauty4} class="d-block w-100 " />
+  </a>
+    </div>
+    <div class="carousel-item">
+    <a href="#" target="_blank;">
+    <img src={beauty3} class="d-block w-100 " />
+    </a>
+  </div>
+    {/*
+    <div class="carousel-item">
+    <img src={logo1} class="d-block w-100" />
+    </div>
+   
+    <div class="carousel-item">
+    <img src={logo1} class="d-block w-100" />
+    </div>
+     */}
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+ </div>
+
 
 {/*
 
@@ -122,7 +172,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
 
 
     <div className="container">
-      <h5 className="clients-intro">
+      <h5 className="clients-intro" id="section2" >
         Facts about our services.
       </h5>
 
