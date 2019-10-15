@@ -1498,7 +1498,7 @@ display: none !important;
 
   .hide-on-desk-top{
 
-    display:block !important;
+    display:none !important;
     
       }
 
@@ -1507,17 +1507,33 @@ display: none !important;
 
 
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media,
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
 
   .hide-on-desk-top{
 
-    display:none !important;
+    display:block !important;
     
       }
 
 
+      #SLIDE_BG{
 
-}
+display:none !important;
+
+      }
+
+
+  }
+
+
 
 
 
