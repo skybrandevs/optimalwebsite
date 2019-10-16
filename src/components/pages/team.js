@@ -46,11 +46,8 @@ pulse of everything we do.
 */}
     <h6 className="member-name">Micheal Iyaki</h6>
     <h6 className="member-position">Co-founder of K&I Craft.</h6>
-    <p className="profile">At Optimal Source Plus Ltd, we have our eyes on the ball,
-our ears to the ground and our fingers on the pulse of everything we do.</p>
-
-
-<a href="#"> <img src={linked} id="icon-prof" className="zoom"/> </a>
+    
+<a href="https://www.linkedin.com/in/michael-iyaki-0378b8147/" target="_blank;" > <img src={linked} id="icon-prof" className="zoom"/> </a>
 
 {/*
     <p className="about-member">Bsce Maths , Phd statistics.</p>
@@ -62,10 +59,9 @@ our ears to the ground and our fingers on the pulse of everything we do.</p>
 <img src={facememeber_2} className="img-fluid team-face" alt=""/> 
    */}
 <h6 className="member-name">Daniel Iyaki</h6>
-    <h6 className="member-position">Director</h6>
-    <p className="profile">At Optimal Source Plus Ltd, we have our eyes on the ball,
-our ears to the ground and our fingers on the pulse of everything we do.</p>
-<a href="#"> <img src={linked} id="icon-prof" className="zoom"/> </a>
+    <h6 className="member-position">Director of operations.</h6>
+ 
+<a href="https://www.linkedin.com/in/iyaki-daniel/" target="_blank;"> <img src={linked} id="icon-prof" className="zoom"/> </a>
 
 {/*
    
@@ -79,10 +75,9 @@ our ears to the ground and our fingers on the pulse of everything we do.</p>
 <img src={facemember_3} className="img-fluid team-face" alt=""/>
     */}
 <h6 className="member-name">Yemi Olufelo</h6>
-    <h6 className="member-position">Business operations <br></br> & development.</h6>
-    <p className="profile">At Optimal Source Plus Ltd, we have our eyes on the ball,
-our ears to the ground and our fingers on the pulse of everything we do.</p>
-<a href="#"> <img src={linked} id="icon-prof" className="zoom"/> </a>
+    <h6 className="member-position">Business & development.</h6>
+   
+<a href="https://www.linkedin.com/in/oluyemiolufelo" target="_blank;"> <img src={linked} id="icon-prof" className="zoom"/> </a>
 
 {/*
     <p className="about-member"> Hnd Arts , Msce++ statistics.</p>
@@ -111,9 +106,8 @@ our ears to the ground and our fingers on the pulse of everything we do.</p>
 */}
     <h6 className="member-name">Moshood Ogunsanya</h6>
     <h6 className="member-position">Brand manager & co-operate <br></br> communications.</h6>
-    <p className="profile">At Optimal Source Plus Ltd, we have our eyes on the ball,
-our ears to the ground and our fingers on the pulse of everything we do.</p>
-<a href="#"> <img src={linked} id="icon-prof" className="zoom"/> </a>
+   
+<a href="https://www.linkedin.com/in/ogunsanya-moshood-959911150/" target="_blank;"> <img src={linked} id="icon-prof" className="zoom"/> </a>
 
 {/*
     <p className="about-member">Bsce Maths , Phd statistics.</p>
