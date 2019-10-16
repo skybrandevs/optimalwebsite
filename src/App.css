@@ -1663,10 +1663,12 @@ and (max-height:1440px)
   outline: none !important;
 }
 
-.lxx{
-  display: none !important;
-}
 
+#lxx{
+
+display: none;
+
+}
 
 .optimal-name {
 

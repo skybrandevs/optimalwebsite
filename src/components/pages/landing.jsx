@@ -351,7 +351,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
           <div className="col-sm-6">
             <img
               src={cueball_app_screen}
-              className="img-fluid appscreen lxx"
+              className="img-fluid appscreen" id="lxx"
               alt="cueball"
             />
           </div>
