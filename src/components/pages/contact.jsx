@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./partials/navbar";
-import art from "../../art.svg";
+import art from "../../art.png";
 import tell from "../../tell.png";
 
 
