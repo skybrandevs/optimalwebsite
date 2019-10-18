@@ -1,0 +1,72 @@
+
+
+.bac-landing{
+
+background-image: url('images/landing-background.png');
+background-size: cover;
+height:100vh;
+
+}
+
+
+.logo{
+
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 150px;
+margin-top: 70px;
+}
+
+
+.cue-ball{
+    font-family:EuclidCircularBBoldimport;
+    color: white;
+    text-align: center;
+    font-weight:500;
+    font-size: 65px;
+    line-height: 63px;
+    margin-top:30px;
+
+
+}
+
+
+@font-face {
+    font-family:EuclidCircularBBoldimport;
+    src: url("fonts/Euclid/EuclidCircularBBold.otf");
+  }
+
+
+
+  @font-face {
+    font-family:EuclidCircularBLightimport;
+    src: url("fonts/Euclid/EuclidCircularBLight.otf");
+  }
+
+
+
+  .get{
+
+    font-family:EuclidCircularBLightimport;
+    color: white;
+    text-align: center;
+
+  }
+
+
+
+  /* timer css */
+
+#demo{
+
+text-align: center !important;
+font-family:EuclidCircularBBold !important;
+font-size: 40px;
+color: goldenrod;
+}
+
+
+
+  /*end*/

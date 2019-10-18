@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Something big is coming this fall</title>
+
+<link rel="shortcut icon" href="" />
+<meta charset="utf-8"/>
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<link rel="stylesheet" href="landing.css"/>
+
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
+<meta name="theme-color" content="black" />
+<meta name="description" content="optimal source plus limited" />
+<link rel="apple-touch-icon" href="" />
+
+
+</head>
+
+
+<body>
+
+
+<div class="bac-landing">
+
+
+
+<div class="container">
+
+<div class="row">
+    <div class="col-sm-12">
+<img src="images/cue_logo.png" class="img-fluid logo">
+<h5 class="cue-ball">Coming this fall...</h5>
+
+<img src="screen.png" class="img-fluid">
+
+    </div>
+
+
+<div class="col-sm-12">
+
+
+    <!-- Display the countdown timer in an element -->
+<p id="demo" class="demo-push"></p>
+
+<h5 class="get">Get the App on </h5>
+
+<div class="text-center">
+<img src="images/logoapple.svg" class="img-fluid d-inline-block">
+<img src="images/logoplay.svg" class="img-fluid d-inline-block">
+</div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+<script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Dec 1, 2019 00:00:00").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("demo").innerHTML = days + "days " + hours + "hrs "
+          + minutes + "mins " + seconds + "sec ";
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
