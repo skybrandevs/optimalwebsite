@@ -344,8 +344,9 @@ deliver <br/> consolidated solutions through meaningful innovations.
               </span>{" "}
               at its best.
             </p>
-
+<a href="https://optimalsplus.com/cueball" target="_blank;">
             <button className="button-optimal-2">Signup </button>
+            </a>
           </div>
 
           <div className="col-sm-6">

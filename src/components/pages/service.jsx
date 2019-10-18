@@ -40,12 +40,12 @@ We will be the best expression for creative innovations and will always place pe
 <img src={groupcard} className="img-fluid logo-ball"/>
 
 
-<Link to="">
+<a href="https://optimalsplus.com/cueball" target="_blank;">
   <p className="color-link">
 
 Visit Official Website. 
 </p>
-</Link>
+</a>
 
 </div>
 

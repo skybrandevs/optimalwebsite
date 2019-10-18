@@ -56,7 +56,7 @@ const Navbar = () => (
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link menu-mrg a-2">
+            <a href="https://optimalsplus.com/cueball" target="_blank;" className="nav-link menu-mrg a-2">
               <span>
                 {" "}
                 <img
@@ -66,7 +66,7 @@ const Navbar = () => (
                 />{" "}
               </span>
               My account
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

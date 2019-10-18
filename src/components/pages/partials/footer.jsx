@@ -70,20 +70,20 @@ const Footer = () => (
           </li>
 
           <li>
-            <Link to="" className="footer-link">
+            <a href="https://optimalsplus.com/cueball" className="footer-link">
               The Cueball Community
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="" className="footer-link">
+            <a href="https://optimalsplus.com/cueball" className="footer-link">
               My Cueball account
-            </Link>
+            </a>
           </li>
 
           <li>
-            <Link to="" className="footer-link">
+            <a href="https://optimalsplus.com/cueball" className="footer-link">
               Cueball
-            </Link>
+            </a>
           </li>
         </div>
         <div className="col-sm-3">
