@@ -16,8 +16,9 @@ import face_2 from "../../face_2.svg";
 import cueball_app_screen from "../../cueball_app_screen.svg";
 import snooker_icon from "../../snooker_icon.png";
 import Navbar from "./partials/navbar";
-import beauty3 from "../../images/beauty3.jpg";
 import beauty4 from "../../images/beauty4.jpg";
+import newsletter from "../../newsletter.png";
+import cueball from "../../cueball.png";
 
 
 const Landing = () => (
@@ -65,7 +66,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
     </div>
     <div class="carousel-item">
     <a href="#" target="_blank;">
-    <img src={beauty3} class="d-block w-100 " />
+    <img src={beauty4} class="d-block w-100 " />
     </a>
   </div>
     {/*
@@ -240,7 +241,9 @@ deliver <br/> consolidated solutions through meaningful innovations.
                 <p className="clients-paragh">Our story</p>
 
                 <p className="body-1 mobile-bottom">
-               We always strive to understand specific digital and economical challenges people face and provide solutions through our innovations. <br></br>Our goal is to improve the lives of 5 million people through our products and services by year 2040. <br></br>We will be the best expression for creative innovations and will always place people at the core of our products and services.
+                Optimal Source Plus LTD is a creative agency that leverages on advanced technologies to
+deliver consolidated solutions through meaningful innovations. <br/>
+Optimal Source Plus was founded by a team who are passionate about influencing the human lifestyle, trends, and perspectives. 
                 </p>
 
 <Link to="/about">
@@ -268,6 +271,8 @@ deliver <br/> consolidated solutions through meaningful innovations.
 <div className="row">
 
 <div className="col-sm-12">
+
+  <img src={newsletter} className="img-fluid newsletter-img"/>
 
 <h5 className="newsletter">Sign up for our Newsletter.</h5>
 <p className="smaller-text">Sign up for our newsletter & <br></br>See why millions of people across 195 countries play cueball.</p>
@@ -350,11 +355,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
           </div>
 
           <div className="col-sm-6">
-            <img
-              src={cueball_app_screen}
-              className="img-fluid appscreen" id="lxx"
-              alt="cueball"
-            />
+           <img src={cueball} className="img-fluid ss"/>
           </div>
         </div>
       </div>

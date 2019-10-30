@@ -28,9 +28,7 @@ team members
       <p className="middle-text">We love & encourage creative minds...</p>
 
       <p className="clients-paragh">
-      At Optimal Source Plus Ltd, we have our eyes on the ball, <br></br>
-our ears to the ground and our fingers on the 
-pulse of everything we do.
+      These People Work Hard So You Can Play Hard. 
       </p>
 
 {/*end of intro */}
@@ -180,41 +178,6 @@ pulse of everything we do.
       </div>
       </div>
     
-
-
-    <div className="curve-blue">
-
-
-<div className="container">
-
-
-<div className="row">
-
-<div className="col-sm-12">
-
-<h5 className="newsletter">Sign up for our Newsletter.</h5>
-<p className="smaller-text">Sign up for our newsletter & <br></br>See why millions of people across 195 countries play cueball.</p>
-
-<a href="newsletter.html" target="_blank;">
-<button className="btn-submit-news">let's proceed now. </button>
-</a>
-
-
-<p className="spam">*enter your mail we promise not to spam you.*</p>
-
-</div>
-
-</div>
-
-
-
-</div>
-
-
-
-    </div>
-
-
 
 </div>
 

@@ -73,15 +73,7 @@ Visit Official Website.
 
 <div className="container">
 
-<h5 className="clients-intro">
-      Who we are 
-      </h5>
-      <p className="body-services">
-                  Since 2017 Optimal Source plus Ltd team is helping to push creativity and tech into
-                  the mainstream. <br /> We are a team of great enthusiasts that
-                  believe everyone should have freedom of choice.
-                </p>
-
+ 
             
 <div className="row">
 

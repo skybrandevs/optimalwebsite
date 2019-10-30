@@ -48,7 +48,7 @@ margin-top: 60px;
    animation: slideBg 25s linear infinite 5s;
     animation-timing-function: ease-in-out;
     background-attachment: fixed;
-    background-image: url('images/beauty.jpg');
+    background-image: url('images/BACKGROUND.png');
   
   }
   
@@ -57,13 +57,13 @@ margin-top: 60px;
   
   
    0% {
-       background-image: url('images/beauty.jpg');
+       background-image: url('images/BACKGROUND.png');
   }
   
   
   
   25% {
-      background-image: url('images/beauty2.jpg');
+      background-image: url('images/BACKGROUND.png');
   }
   
   
@@ -157,10 +157,9 @@ display: block;
     margin-right: auto;
 }
 
-.white-smoke-2{
-
-background-color: whitesmoke;
-
+.white-smoke {
+  background-color:#281853;
+  height:auto;
 }
 
 .color-link{
@@ -338,7 +337,7 @@ margin-right: auto;
 }
 
 .cutslide {
-  background-image: url("images/cutslide.png") !important;
+  background-image: url("images/OFFICE.png") !important;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -413,8 +412,8 @@ margin-right: auto;
 }
 
 .white-smoke {
-  background-color:#003067;
-  height: 90vh;
+  background-color:#281853;
+  height:auto;
 }
 
 .appscreen {
@@ -653,6 +652,21 @@ width: 190px;
 }
 
 
+
+.newsletter-img{
+
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+ margin-top: 80px;
+
+
+}
+
+
+
 .curve-blue{
 
 background-image: url("images/blue-back-team.svg");
@@ -670,6 +684,7 @@ position: relative;
 top: 200px;
 color: white;
 font-size: 40px;
+margin-top: -250px;
 }
 
 .smaller-text{
@@ -718,7 +733,7 @@ top: 315px;
   top: 289px;
   width: 300px;
   color: white;
-  background-color: #1b94ed;
+  background-color:#ED63A7;
   border: transparent;
   font-family: ApercuProBoldimport;
   height:55px;
@@ -898,7 +913,7 @@ display: none !important;
 
 
   .cutslide {
-    background-image: url("images/mobile-background-2.jpg") !important;
+    background-image: url("images/OFFICE.png") !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -930,10 +945,9 @@ display: none !important;
   }
 
   .white-smoke {
-    background-color:#003067;
-    height: 165vh !important;
+    background-color:#281853;
+    height:auto;
   }
-
 
 
   .button-optimal-2 {
@@ -1332,12 +1346,10 @@ margin-right: auto;
   }
 
 
-
-.white-smoke {
-  background-color:#003067;
-  height:50vh;
-}
-  
+  .white-smoke {
+    background-color:#281853;
+    height:auto;
+  }
 
 
   .bac-image {
@@ -1347,7 +1359,6 @@ margin-right: auto;
     background-size: cover;
     background-attachment: fixed;
   }
-
 
 
 
@@ -1764,3 +1775,14 @@ color:black;
 font-size: 15px;
 margin-top: 40px;
 }
+
+
+.ss{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px !important;
+  
+  
+  }

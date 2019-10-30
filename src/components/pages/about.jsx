@@ -37,12 +37,12 @@ const About = () => (
     <img src={mission} className="about"/>
       <h5 className="clients-intro">Mission</h5>
 
-      <p className="middle-text">We tend to achieve all what we promise...</p>
+      <p className="middle-text">Our promise </p>
 
       <p className="clients-paragh">
-      To  leverage advanced technologies and express creative <br></br>freedom that impacts the society one person at a time 
-
+      At optimal source plus LTD, we want to leverage on advanced technologies to solve problems<br/> while expressing our creativity in a way that impacts society one person at a time. <br/>We always strive to understand specific digital and economical challenges <br/> people face and provide solutions through our innovations.
       </p>
+
     </div>
 
     <div className="container">
@@ -50,11 +50,14 @@ const About = () => (
       <h5 className="clients-intro">Vision</h5>
 
       <p className="middle-text">
-        Our views and thinking remains broad enough to deliver..{" "}
+      Our goals{" "}
       </p>
 
       <p className="clients-paragh">
-      Optimal Source Plus Ltd. is a creative agency driven with the sole aim of delivering unbiased<br></br> expertise and seek to apply their innovative capabilities to contribute <br></br> to the society through technology and integrated solutions.
+      Optimal Source Plus LTD is driven with the purpose of delivering an exciting experience to our clients.
+      <br/> We seek to apply our innovative expertise to contribute to society through technology and integrated solutions. <br/>
+Our goal is to improve the lives of 5 million people through our products and services by the year 2040. <br/>
+We will be the best expression for creative innovations and will always place people at the core of our products and services.
       </p>
     </div>
 
@@ -65,12 +68,12 @@ const About = () => (
 <div className="container">
       <h5 className="clients-intro">
         
-        We collaborate with more than 100,000 organizations around the globe
+      We Collaborate With More Than (insert realistic figure) Organizations Around The Globe. 
       </h5>
 
       <p className="clients-paragh">
-        Our diverse sense of brand experience with a well articulated <br />{" "}
-        strategic & tatical ideas that delivers.
+     
+We have a diverse sense of brand experience with a well articulated <br/> strategy & tactical ideas that delivers client expectations. 
       </p>
 
       <div className="row">
