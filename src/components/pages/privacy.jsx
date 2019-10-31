@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../components/pages/partials/navbar";
+import { Link } from "react-router-dom";
 
 const Privacy = () => (
   <div className="hide-all">
@@ -349,9 +350,9 @@ const Privacy = () => (
         Our Services includes features from our partners, such as social media
         interaction tools and in-game advertising.
         <br /> A list of these partners is available{" "}
-        <a href="https://optimalsplus.com/team" target="_blank;">
+        <Link to="/team" target="_blank;">
           here
-        </a>
+        </Link>
         .<br /> These partners may access your data and operate under their own
         privacy policies.
         <br /> We encourage you to check their privacy policies to learn more
