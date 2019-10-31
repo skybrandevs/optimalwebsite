@@ -43,9 +43,9 @@ const Footer = () => (
           </li>
 
           <li>
-            <Link to="/contact" className="footer-link">
+            <a href="contact.html" target="_blank;" className="footer-link">
               Contact us
-            </Link>
+            </a>
           </li>
 
           <li>

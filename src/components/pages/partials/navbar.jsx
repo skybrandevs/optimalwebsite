@@ -50,9 +50,9 @@ const Navbar = () => (
           </li>
 
           <li className="nav-item">
-            <Link to="/contact" className="nav-link menu-mrg a-2">
+            <a href="contact.html" target="_blank;" className="nav-link menu-mrg a-2">
               Contact
-            </Link>
+            </a>
           </li>
 
           <li className="nav-item">

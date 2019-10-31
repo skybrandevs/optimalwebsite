@@ -30,8 +30,9 @@ margin-top: 80px;
 
 #icon-prof{
 
-position: relative;
-left:50px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 width: 18px;
 margin-top: 60px;
 
@@ -601,15 +602,17 @@ margin-top: 250px !important;
 
 .team-face{
 
-width: 190px;
+width: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 
 }
 
 
 .member-name{
-  position: relative;
-  left: 45px;
-  top:20px;
+  text-align: center;
+  margin-top:20px;
   font-weight: bolder;
   font-family: ApercuProBoldimport;
   color: #003067; 
@@ -617,9 +620,8 @@ width: 190px;
 
 .member-position{
   color: #1b94ed;
-  position: relative;
-  left: 45px;
-  top:20px;
+text-align: center;
+  margin-top:20px;
   font-family: ApercuProBoldimport;
   font-size: 13px;
 
@@ -737,6 +739,9 @@ top: 315px;
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+
+
+
   .logo-apps-1 , .logo-apps-2 ,.logo-apps {
 
     display:block;
@@ -790,15 +795,17 @@ top: 315px;
 
 .team-face{
 
-  width: 100px !important;
+  width: 90px !important;
+  display: block;
+margin-left: auto;
+margin-right: auto;
   
   }
 
 
 .member-name{
-  position: relative;
-  left: 0px;
-  top:20px;
+  text-align: center;
+  margin-top:20px;
   font-weight: bolder;
   font-family: ApercuProBoldimport;
   color: #003067; 
@@ -806,9 +813,8 @@ top: 315px;
 
 .member-position{
   color: #1b94ed;
-  position: relative;
-  left: 0px;
-  top:20px;
+  text-align: center;
+  margin-top:20px;
   font-family: ApercuProBoldimport;
   font-size: 13px;
 
@@ -1066,14 +1072,16 @@ margin-right: auto;
 .team-face{
 
   width: 100px !important;
+  display: block;
+margin-left: auto;
+margin-right: auto;
   
   }
 
 
 .member-name{
-  position: relative;
-  left: 0px;
-  top:20px;
+  text-align: center;
+  margin-top:20px;
   font-weight: bolder;
   font-family: ApercuProBoldimport;
   color: #003067; 
@@ -1081,9 +1089,8 @@ margin-right: auto;
 
 .member-position{
   color: #1b94ed;
-  position: relative;
-  left: 0px;
-  top:20px;
+  text-align: center;
+  margin-top:20px;
   font-family: ApercuProBoldimport;
   font-size: 13px;
 
@@ -1193,6 +1200,9 @@ margin-right: auto;
   .team-face{
 
     width: 100px !important;
+    display: block;
+margin-left: auto;
+margin-right: auto;
     
     }
 
@@ -1208,9 +1218,8 @@ margin-right: auto;
   
   
   .member-name{
-    position: relative;
-    left: 0px;
-    top:20px;
+    text-align: center;
+    margin-top:20px;
     font-weight: bolder;
     font-family: ApercuProBoldimport;
     color: #003067; 
@@ -1218,9 +1227,8 @@ margin-right: auto;
   
   .member-position{
     color: #1b94ed;
-    position: relative;
-    left: 0px;
-    top:20px;
+    text-align: center;
+    margin-top:20px;
     font-family: ApercuProBoldimport;
     font-size: 13px;
   

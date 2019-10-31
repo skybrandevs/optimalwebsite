@@ -4,6 +4,10 @@ import logo1 from "../../logo1.jpg";
 import logo2 from "../../logo2.png";
 import logo3 from "../../logo3.png";
 import linked from "../../linked.svg";
+import facemember_2 from "../../facemember_2.svg";
+import facemember from "../../facemember.svg";
+import facemember_3 from "../../facemember_3.svg";
+import opt1 from "../../opt1.svg";
 
 const Team = () => (
 
@@ -39,11 +43,11 @@ team members
 <div className="row justify-content-center">
 
 <div className="col-sm-3 col">
-{/*
-    <img src={facemember} className="img-fluid team-face" alt=""/>
-*/}
+
+    <img src={facemember} className="img-fluid team-face zoom" alt=""/>
+
     <h6 className="member-name">Micheal Iyaki</h6>
-    <h6 className="member-position">Co-founder of K&I Craft.</h6>
+    <h6 className="member-position">Co-founder <br/> optimal plus</h6>
     
 <a href="https://www.linkedin.com/in/michael-iyaki-0378b8147/" target="_blank;" > <img src={linked} id="icon-prof" className="zoom"/> </a>
 
@@ -53,11 +57,11 @@ team members
 </div>
 
 <div className="col-sm-3 col">
-   {/*
-<img src={facememeber_2} className="img-fluid team-face" alt=""/> 
-   */}
+   
+<img src={facemember_2} className="img-fluid team-face zoom" alt=""/> 
+
 <h6 className="member-name">Daniel Iyaki</h6>
-    <h6 className="member-position">Director of operations.</h6>
+    <h6 className="member-position">Director of <br/> operations.</h6>
  
 <a href="https://www.linkedin.com/in/iyaki-daniel/" target="_blank;"> <img src={linked} id="icon-prof" className="zoom"/> </a>
 
@@ -69,13 +73,13 @@ team members
 
 
 <div className="col-sm-3 col">
-    {/*
-<img src={facemember_3} className="img-fluid team-face" alt=""/>
-    */}
+
+<img src={facemember_3} className="img-fluid team-face zoom" alt=""/>
+
 <h6 className="member-name">Yemi Olufelo</h6>
-    <h6 className="member-position">Business & development.</h6>
+    <h6 className="member-position">Business & <br/> development.</h6>
    
-<a href="https://www.linkedin.com/in/oluyemiolufelo" target="_blank;"> <img src={linked} id="icon-prof" className="zoom"/> </a>
+<a href="https://www.linkedin.com/in/oluyemiolufelo" target="_blank;"> <img src={linked} id="icon-prof"  className="zoom"/> </a>
 
 {/*
     <p className="about-member"> Hnd Arts , Msce++ statistics.</p>
@@ -99,9 +103,8 @@ team members
 
 <div className="col-sm-3 col">
 
-{/*
-    <img src={opt1} className="img-fluid team-face" alt=""/>
-*/}
+    <img src={opt1} className="img-fluid team-face zoom" alt=""/>
+
     <h6 className="member-name">Moshood Ogunsanya</h6>
     <h6 className="member-position">Brand manager & co-operate <br></br> communications.</h6>
    
