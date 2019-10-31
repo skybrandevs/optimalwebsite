@@ -9,7 +9,7 @@ const Contact = ()=> (
 
 <div className="hide-all">
 
-<div className="bac-contact" id="section2">
+<div className="bac-about" id="section2">
 
 <Navbar/>
 

@@ -11,7 +11,7 @@ const Service = () => (
   <div className="hide-all">
 
 <div className="white-smoke-2">
-<div className="bac-service" id="section2">
+<div className="bac-about" id="section2">
 
 <Navbar/>
 

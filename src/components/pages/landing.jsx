@@ -3,22 +3,13 @@ import { Link } from "react-router-dom";
 import appsLogo from "../../appsLogo.svg";
 import playLogo from "../../playLogo.svg";
 import play_cue_ball_1 from "../../play_cue_ball_1.png";
-import cn from "../../cn.svg";
-import spotify from "../../spotify.svg";
-import dropbox from "../../dropbox.svg";
-import slack from "../../slack.svg";
-import logo1 from "../../logo1.jpg";
-import logo2 from "../../logo2.png";
-import logo3 from "../../logo3.png";
-import booking from "../../booking.svg";
 import face_1 from "../../face_1.svg";
 import face_2 from "../../face_2.svg";
 import cueball_app_screen from "../../cueball_app_screen.svg";
 import snooker_icon from "../../snooker_icon.png";
 import Navbar from "./partials/navbar";
-import beauty4 from "../../images/beauty4.jpg";
-import newsletter from "../../newsletter.png";
 import cueball from "../../cueball.png";
+import dot from "../../dot.png";
 
 
 const Landing = () => (
@@ -39,13 +30,18 @@ deliver <br/> consolidated solutions through meaningful innovations.
           alt="logo"
         />
       <br/>
-        <img src={appsLogo} className="img-fluid logo-apps zoom" alt="logo" /> <br/>
+      <a href="https://optimalsplus.com/cueball" target="_blank;">
+        <img src={appsLogo} className="img-fluid logo-apps zoom" alt="logo" /> 
+        </a>
+         <br/>
+         <a href="https://optimalsplus.com/cueball" target="_blank;">
         <img src={playLogo} className="img-fluid logo-apps-2 zoom" alt="logo" />
+        </a>
       </div>
     </div>
 
  
-
+{/*
 
 <div className="hide-on-desk-top carousel slide" data-ride="carousel" id="carouselExampleIndicators">
 
@@ -77,7 +73,7 @@ deliver <br/> consolidated solutions through meaningful innovations.
     <div class="carousel-item">
     <img src={logo1} class="d-block w-100" />
     </div>
-     */}
+     
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -89,6 +85,8 @@ deliver <br/> consolidated solutions through meaningful innovations.
   </a>
 
  </div>
+
+    */}
 
 
 {/*
@@ -191,8 +189,9 @@ deliver <br/> consolidated solutions through meaningful innovations.
           <p className="body-1">
           We understand how fragile trust is that is why we operate a policy that will ensure we keep yours. 
 
-
           </p>
+
+          <img src={dot} className="img-fluid dot"/>
         </div>
 
         <div className="col-sm-4">
@@ -205,8 +204,9 @@ deliver <br/> consolidated solutions through meaningful innovations.
 
           <p className="body-1">
           With us, you never have to worry about running against the clock. with delivery in real time,Our team works hard to build efficient game API networks for great instant payout. 
+ </p>
 
-          </p>
+ <img src={dot} className="img-fluid dot"/>
         </div>
 
         <div className="col-sm-4">
@@ -220,6 +220,8 @@ deliver <br/> consolidated solutions through meaningful innovations.
           <p className="body-1">
           we also place priority on our clients knowing our progress levels.
           </p>
+
+          <img src={dot} className="img-fluid dot"/>
         </div>
       </div>
 
@@ -271,8 +273,6 @@ Optimal Source Plus was founded by a team who are passionate about influencing t
 <div className="row">
 
 <div className="col-sm-12">
-
-  <img src={newsletter} className="img-fluid newsletter-img"/>
 
 <h5 className="newsletter">Sign up for our Newsletter.</h5>
 <p className="smaller-text">Sign up for our newsletter & <br></br>See why millions of people across 195 countries play cueball.</p>

@@ -3,7 +3,7 @@ import Navbar from "../../components/pages/partials/navbar";
 
 const Privacy = () => (
   <div className="hide-all">
-    <div className="bac-team" id="section2">
+    <div className="bac-about" id="section2">
       <Navbar />
     </div>
     {/* end of bacground top image*/}

@@ -10,7 +10,7 @@ const Careers =()=> (
 
 <div className="hide-all">
 
-<div className="bac-team">
+<div className="bac-about">
 
 <Navbar/>
 

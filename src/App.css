@@ -157,10 +157,7 @@ display: block;
     margin-right: auto;
 }
 
-.white-smoke {
-  background-color:#281853;
-  height:auto;
-}
+
 
 .color-link{
   font-family: ApercuProBoldimport;
@@ -351,21 +348,22 @@ margin-right: auto;
   border-radius: 5px;
   position: relative;
   top: 130px;
-  height: 80vh;
+  height: 70vh;
 }
 
 .button-optimal {
   background-color: #1b94ed;
-  height: 50px;
+  height: 70px;
   width: 170px;
   border: transparent;
-  border-radius: 25px;
+  border-radius:5px;
   color: white;
   font-weight: bolder;
   font-family: ApercuProBoldimport;
-  position: relative;
-  left: 450px;
-  top: -20px;
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: -50px;
   outline: none !important;
 }
 
@@ -413,7 +411,7 @@ margin-right: auto;
 
 .white-smoke {
   background-color:#281853;
-  height:auto;
+  height:80vh !important;
 }
 
 .appscreen {
@@ -463,16 +461,16 @@ margin-right: auto;
 
 .button-optimal-2 {
   background-color: #1b94ed;
-  height: 50px;
+  height: 70px;
   width: 170px;
   border: transparent;
-  border-radius: 25px;
+  border-radius: 5px;
   color: white;
   font-weight: bolder;
   font-family: ApercuProBoldimport;
-  position: relative;
-  left: 190px;
-  top: 10px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
   outline: none !important;
 }
 
@@ -548,11 +546,10 @@ li {
 
 .bac-about{
 
-  background-image: url("bac-about.jpg");
+  background-image: url("images/bad-team.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height:55vh !important;
-
 
 }
 
@@ -570,7 +567,7 @@ li {
 
 .smoke{
   background-color: whitesmoke !important;
-  height:80vh;
+  height:85vh;
   padding-top: 40px;
 }
 
@@ -653,24 +650,13 @@ width: 190px;
 
 
 
-.newsletter-img{
-
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 900px;
- margin-top: 80px;
-
-
-}
 
 
 
 .curve-blue{
 
 background-image: url("images/blue-back-team.svg");
-height:120vh;
+height:100vh;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -684,7 +670,7 @@ position: relative;
 top: 200px;
 color: white;
 font-size: 40px;
-margin-top: -250px;
+margin-top:50px;
 }
 
 .smaller-text{
@@ -751,20 +737,23 @@ top: 315px;
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+  .logo-apps-1 , .logo-apps-2 ,.logo-apps {
 
-
-  #SLIDE_BG{
-
-display: none !important;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     
     }
+
+
+
+  .ss{
+
+    display:none !important;
     
+    }
 
-
-
-
-
-
+    
 
   .bg-light {
     background-color:#1b94ed !important;
@@ -881,27 +870,7 @@ display: none !important;
     display: none;
   }
 
-  .logo-apps-1 {
-    width: 165px;
-    position: relative;
-    left: 113px;
-    margin-top: 20px;
-  }
-
-  .logo-apps {
-    width: 110px;
-    position: relative;
-    left: 80px;
-    top: 0px;
-  }
-
-  .logo-apps-2 {
-    width: 110px;
-    position: relative;
-    left: 95px;
-    top: 0px;
-  }
-
+ 
 
   .clients {
     width: 50px;
@@ -916,24 +885,28 @@ display: none !important;
     background-image: url("images/OFFICE.png") !important;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 
   .mobile-intro {
     margin-top: 55px !important;
   }
 
-  .button-optimal {
-    background-color: #1b94ed;
-    height: 50px;
-    width: 100%;
-    border: transparent;
-    border-radius: 25px;
-    color: white;
-    font-weight: bolder;
-    font-family: ApercuProBoldimport;
-    outline: none !important;
-    position: initial;
+  
+    .button-optimal {
+      background-color: #1b94ed;
+      height: 70px;
+      width: 170px;
+      border: transparent;
+      border-radius:5px;
+      color: white;
+      font-weight: bolder;
+      font-family: ApercuProBoldimport;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+      outline: none !important;
+      margin-top: 40px;
   }
 
   .mobile-bottom {
@@ -946,22 +919,24 @@ display: none !important;
 
   .white-smoke {
     background-color:#281853;
-    height:auto;
+    height:80vh !important;
   }
-
 
   .button-optimal-2 {
     background-color: #1b94ed;
-    height: 50px;
-    width: 100%;
+    height: 70px;
+    width: 170px;
     border: transparent;
-    border-radius: 25px;
+    border-radius: 5px;
     color: white;
     font-weight: bolder;
     font-family: ApercuProBoldimport;
-    position: initial !important;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
     outline: none !important;
   }
+  
 
   .appscreen {
     width: 50%;
@@ -995,8 +970,8 @@ display: none !important;
   border: 2px solid transparent;
   border-radius: 5px;
   position: relative;
-  top: -20px;
-  height:95vh;
+  top: 80px;
+  height:80vh;
 }
 
 
@@ -1009,6 +984,21 @@ display: none !important;
   text-align: center;
   margin-top: 140px;
 }
+
+
+
+.newsletter{
+
+  text-align: center;
+  font-family: ApercuProBoldimport;
+  font-weight: bolder;
+  position: relative;
+  top: 200px;
+  color: white;
+  font-size: 40px;
+  margin-top:-30px;
+  }
+
 
 
 }
@@ -1121,21 +1111,21 @@ margin-right: auto;
   margin-bottom: 90px;
 }
 
-
 .button-optimal-2 {
   background-color: #1b94ed;
-  height: 50px;
-  width: 100%;
+  height: 70px;
+  width: 170px;
   border: transparent;
-  border-radius: 25px;
+  border-radius: 5px;
   color: white;
   font-weight: bolder;
   font-family: ApercuProBoldimport;
-  position: relative;
-  left: 0px;
-  top: 10px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
   outline: none !important;
 }
+
 
 
 
@@ -1155,20 +1145,23 @@ margin-right: auto;
 }
 
 
-.button-optimal {
-  background-color: #1b94ed;
-  height: 50px;
-  width: 170px;
-  border: transparent;
-  border-radius: 25px;
-  color: white;
-  font-weight: bolder;
-  font-family: ApercuProBoldimport;
-  position: relative;
-  left: 235px;
-  top: -20px;
-  outline: none !important;
+
+  .button-optimal {
+    background-color: #1b94ed;
+    height: 70px;
+    width: 170px;
+    border: transparent;
+    border-radius:5px;
+    color: white;
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+    outline: none !important;
+    margin-top: 40px;
 }
+
 
 
 
@@ -1189,6 +1182,14 @@ margin-right: auto;
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
 
+
+
+
+
+
+
+
+  
   .team-face{
 
     width: 100px !important;
@@ -1240,36 +1241,38 @@ margin-right: auto;
 
   .button-optimal-2 {
     background-color: #1b94ed;
-    height: 50px;
-    width: 100%;
-    border: transparent;
-    border-radius: 25px;
-    color: white;
-    font-weight: bolder;
-    font-family: ApercuProBoldimport;
-    position: relative;
-    left: 0px;
-    top: 10px;
-    outline: none !important;
-  }
-
-
-
-  .button-optimal  {
-    background-color: #1b94ed;
-    height: 50px;
+    height: 70px;
     width: 170px;
     border: transparent;
-    border-radius: 25px;
+    border-radius: 5px;
     color: white;
     font-weight: bolder;
     font-family: ApercuProBoldimport;
-    position: relative;
-    left: 370px;
-    top: -20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
     outline: none !important;
   }
+  
 
+
+
+  .button-optimal {
+    background-color: #1b94ed;
+    height: 70px;
+    width: 170px;
+    border: transparent;
+    border-radius:5px;
+    color: white;
+    font-weight: bolder;
+    font-family: ApercuProBoldimport;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+    outline: none !important;
+    margin-top: -50px !important;
+  }
+  
 
 
 
@@ -1306,7 +1309,7 @@ margin-right: auto;
   .curve-blue{
 
     background-image: url("images/blue-back-team.svg");
-    height:50vh;
+    height:80vh;
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -1330,25 +1333,26 @@ margin-right: auto;
 
 
 
-  .button-optimal {
-    background-color: #1b94ed;
-    height: 50px;
-    width: 170px;
-    border: transparent;
-    border-radius: 25px;
-    color: white;
-    font-weight: bolder;
-    font-family: ApercuProBoldimport;
-    position: relative;
-    left: 350px;
-    top: -20px;
-    outline: none !important;
+    .button-optimal {
+      background-color: #1b94ed;
+      height: 70px;
+      width: 170px;
+      border: transparent;
+      border-radius:5px;
+      color: white;
+      font-weight: bolder;
+      font-family: ApercuProBoldimport;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+      outline: none !important;
+      margin-top: 40px;
   }
 
 
   .white-smoke {
     background-color:#281853;
-    height:auto;
+    height:55vh !important;
   }
 
 
@@ -1395,126 +1399,9 @@ background-repeat: no-repeat;
 
 
 
-@media only screen and (width: 1024px){
 
 
 
-  .hide-on-desk-top{
-
-display: none !important;
-
-  }
-
-
-
-
-}
-
-
-
-
-
-
-@media only screen and (width: 768px){
-
-
-
-  .hide-on-desk-top{
-
-display: none !important;
-
-  }
-
-
-
-
-}
-
-
-
-
-
-@media only screen and (width: 1366px){
-
-
-
-  .hide-on-desk-top{
-
-display: none !important;
-
-  }
-
-
-
-
-}
-
-
-
-
-
-@media only screen and (width:1440px){
-
-
-
-  .hide-on-desk-top{
-
-display: none !important;
-
-  }
-
-
-
-
-}
-
-
-@media only screen and (width:1280px){
-
-
-
-  .hide-on-desk-top{
-
-display: none !important;
-
-  }
-
-
-
-
-}
-
-
-@media only screen and (width:1200px){
-
-
-
-  .hide-on-desk-top{
-
-display: none !important;
-
-  }
-
-
-
-
-}
-
-
-/* media query for safari  browser only*/
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) {
-
- 
-
-  .hide-on-desk-top{
-
-    display:none !important;
-    
-      }
-
-
-}}
 
 
 
@@ -1527,19 +1414,25 @@ display: none !important;
   and (-webkit-min-device-pixel-ratio: 2) {
 
 
-
-  .hide-on-desk-top{
-
-    display:block !important;
+    .button-optimal {
+      background-color: #1b94ed;
+      height: 70px;
+      width: 170px;
+      border: transparent;
+      border-radius:5px;
+      color: white;
+      font-weight: bolder;
+      font-family: ApercuProBoldimport;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+      outline: none !important;
+      margin-top: 40px !important;
+    }
     
-      }
 
 
-      #SLIDE_BG{
-
-display:none !important;
-
-      }
+  
 
 
   }
@@ -1552,43 +1445,7 @@ display:none !important;
 
 
 
-/* imac screen media query */
 
-@media only screen and (width:5120px) and (height:2880px){
-
-
-
-  .hide-on-desk-top{
-
-display: none !important;
-
-  }
-
-
-
-
-}
-/*end*/
-
-/*panasonic screen size */
-
-@media only screen and (width:4096px) and (height:2160px){
-
-
-
-  .hide-on-desk-top{
-
-display: none !important;
-
-  }
-
-
-
-
-}
-
-
-/*end*/
 
 
 
@@ -1602,18 +1459,9 @@ and (max-height:1440px)
  and (-webkit-max-device-pixel-ratio:2)
  { 
 
-  .hide-on-desk-top{
 
-    display:block !important;
-    
-      }
+  
 
-
-      #SLIDE_BG{
-
-        display:none !important;
-        
-              }
 
               li {
                 text-align: center !important;
@@ -1648,29 +1496,36 @@ and (max-height:1440px)
 
 .button-optimal {
   background-color: #1b94ed;
-  height: 50px;
-  width: 100%;
+  height: 70px;
+  width: 170px;
   border: transparent;
-  border-radius: 25px;
+  border-radius:5px;
   color: white;
   font-weight: bolder;
   font-family: ApercuProBoldimport;
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
   outline: none !important;
-  position: initial;
+  margin-top: -45px;
 }
+
+
 
 
 
 .button-optimal-2 {
   background-color: #1b94ed;
-  height: 50px;
-  width: 100%;
+  height: 70px;
+  width: 170px;
   border: transparent;
-  border-radius: 25px;
+  border-radius: 5px;
   color: white;
   font-weight: bolder;
   font-family: ApercuProBoldimport;
-  position: initial !important;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
   outline: none !important;
 }
 
@@ -1784,5 +1639,11 @@ margin-top: 40px;
   margin-right: auto;
   margin-top: 180px !important;
   
-  
+  }
+
+
+  .dot{
+
+margin-top: -180px !important;
+
   }

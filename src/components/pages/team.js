@@ -9,7 +9,7 @@ const Team = () => (
 
 <div className="hide-all">
 
-<div className="bac-team" id="section2">
+<div className="bac-about" id="section2">
 
 <Navbar/>
 
