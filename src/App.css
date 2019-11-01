@@ -211,11 +211,6 @@ left:82px ;
   margin-top: 25px;
 }
 
-@font-face {
-  font-family: ApercuLightimport;
-  src: url("fonts/Apercu/ApercuLight.otf");
-}
-
 
 @font-face {
   font-family: ApercuProBoldimport;
@@ -1642,8 +1637,6 @@ font-family: ApercuLightimport;
   font-family: ApercuLightimport;
   
 }
-
-
 
 
 
